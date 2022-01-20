@@ -1,0 +1,82 @@
+.container {
+    max-width: 960px;
+  }
+  .navbar-header {
+    background-color: rgb(33,37,42);
+  }
+  .navbar-header a{
+      color: white;
+  }
+  .product-device {
+    position: absolute;
+    right: 10%;
+    bottom: -30%;
+    width: 300px;
+    height: 540px;
+    background-color: #333;
+    border-radius: 21px;
+    transform: rotate(30deg);
+  }
+  
+  .product-device::before {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    bottom: 10%;
+    left: 10px;
+    content: "";
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 5px;
+  }
+  
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #f1f1f1f1;
+    color: black;
+  }
+  .previousb {
+    background-color: black;
+    color: white;
+  }
+  
+  .nextb {
+    background-color: black;
+    color:white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  .pointer {
+      cursor: pointer;
+  }
+
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }

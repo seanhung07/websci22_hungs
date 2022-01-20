@@ -1,0 +1,1636 @@
+{
+    "rss": {
+      "channel": {
+        "title": "FinTech Feed",
+        "link": "https://www.nasdaq.com/feed/rssoutbound?category=FinTech",
+        "description": "This feed is responsible for generating the rss feed related to the topic fintech",
+        "language": "en",
+        "item": [
+          {
+            "title": "Exploring the Next Frontier of NFTs",
+            "link": "https://www.nasdaq.com/articles/exploring-the-next-frontier-of-nfts",
+            "description": "The market crash for high-priced NFTs is coming. Given the over-inflation in the market, it would not be a surprise if the high-priced, highly speculative NFTs lost 90% of their value in a matter of weeks.",
+            "pubDate": "Fri, 07 Jan 2022 16:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/exploring-the-next-frontier-of-nfts?time=1641571200",
+            "creator": "Guest Contributors",
+            "category": "NFTs,FinTech"
+          },
+          {
+            "title": "Co-Ops: The Grandparent of DAOs",
+            "link": "https://www.nasdaq.com/articles/co-ops%3A-the-grandparent-of-daos",
+            "description": "Initiated by a few Twitter users with a substantial follower base, a group of internet strangers came together last November attempting to purchase a rare copy of the US Constitution in an auction organized by Sotheby's.",
+            "pubDate": "Thu, 06 Jan 2022 17:59:06 +0000",
+            "guid": "https://www.nasdaq.com/articles/co-ops%3A-the-grandparent-of-daos?time=1641494082",
+            "creator": "Guest Contributors",
+            "category": "FinTech,NFTs"
+          },
+          {
+            "title": "Unicorn startups doubled in number in 2021 fintechs took centre stage",
+            "link": "https://www.nasdaq.com/articles/unicorn-startups-doubled-in-number-in-2021-fintechs-took-centre-stage",
+            "description": "In this report, we highlight the countries and industries that have the highest unicorn startups and valuation, and the distribution of industries that saw new addition of unicorns in 2021. We have focused on fintechs to identify the leading sub-segments and geographies both by t",
+            "pubDate": "Mon, 03 Jan 2022 05:50:57 +0000",
+            "guid": "https://www.nasdaq.com/articles/unicorn-startups-doubled-in-number-in-2021-fintechs-took-centre-stage?time=1641954782",
+            "creator": "Tellimer",
+            "category": "Central Banks,FinTech,World Markets,Bonds,Fixed Income",
+            "partnerlink": [
+              "Latest Global Macro insights",
+              "Latest Crypto market insights",
+              "Latest Fintech market insights"
+            ]
+          },
+          {
+            "title": "CBDCS and DeFi:  The Future of Stablecoins",
+            "link": "https://www.nasdaq.com/articles/cbdcs-and-defi%3A-the-future-of-stablecoins",
+            "description": "Over the past two years, DeFi(decentralized finance) applications have ushered in a revolution regarding how we collectively view and interact with money, creating a democratized and transparent financial playing field for all.",
+            "pubDate": "Mon, 20 Dec 2021 18:30:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/cbdcs-and-defi%3A-the-future-of-stablecoins?time=1640096710",
+            "creator": "Guest Contributors",
+            "category": "Cryptocurrencies,FinTech"
+          },
+          {
+            "title": "The top 10 crypto trends",
+            "link": "https://www.nasdaq.com/articles/the-top-10-crypto-trends",
+            "description": "Cryptocurrencies have really hit the mainstream this year. According to the Global Crypto Adoption Index released by Chainalysis, worldwide adoption of cryptocurrencies jumped by over 880% yoy in August this year, with the most rapid adoption rates seen in emerging markets. This",
+            "pubDate": "Sat, 11 Dec 2021 09:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-top-10-crypto-trends?time=1642386782",
+            "creator": "Tellimer",
+            "category": "Central Banks,World Markets,FinTech,Emerging Markets",
+            "partnerlink": [
+              "Latest Global Macro insights",
+              "Latest Crypto market insights",
+              "Latest Fintech market insights"
+            ]
+          },
+          {
+            "title": "The Rise of Women in Investing: A Seismic Step Forward",
+            "link": "https://www.nasdaq.com/articles/the-rise-of-women-in-investing%3A-a-seismic-step-forward",
+            "description": "According to data, 67% of women are now investing their savings in the stock market. This represents a significant 50% increase in the volume of female investors active in 2018.",
+            "pubDate": "Fri, 26 Nov 2021 13:40:44 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-rise-of-women-in-investing%3A-a-seismic-step-forward?time=1637945729",
+            "creator": "Dmytro Spilka",
+            "category": "Investing,Smart Investing,Diversity &amp; Inclusion,FinTech,Markets"
+          },
+          {
+            "title": "The Journey to Digital Member Services",
+            "link": "https://www.nasdaq.com/articles/the-journey-to-digital-member-services",
+            "description": "In this interview, David Lawn, Vice President and Head of North American Client Services at Nasdaq, discusses how Nasdaq digitalization journey started and the vision moving forward.",
+            "pubDate": "Tue, 16 Nov 2021 13:00:33 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-journey-to-digital-member-services?time=1637067655",
+            "creator": "MarketInsite",
+            "category": "FinTech,Market Infrastructure,Technology"
+          },
+          {
+            "title": "DeFi Is A Frightening Prospect For The Banking Industry, But It Doesn't Have To Be",
+            "link": "https://www.nasdaq.com/articles/defi-is-a-frightening-prospect-for-the-banking-industry-but-it-doesnt-have-to-be",
+            "description": "Regardless of those opposed to the idea, DeFi technology is booming, reaching a market cap of $133.34 Billion in 2021, and a system that opens up access to finance for millions of people around the world is certainly not 'baloney.'",
+            "pubDate": "Tue, 09 Nov 2021 19:02:46 +0000",
+            "guid": "https://www.nasdaq.com/articles/defi-is-a-frightening-prospect-for-the-banking-industry-but-it-doesnt-have-to-be?time=1636484831",
+            "creator": "Guest Contributors",
+            "category": "Technology,FinTech,Blockchain,Cryptocurrencies",
+            "tickers": "ETH"
+          },
+          {
+            "title": "Crypto Needs a New Development Paradigm",
+            "link": "https://www.nasdaq.com/articles/crypto-needs-a-new-development-paradigm",
+            "description": "Something is broken in blockchain development. We hear about hacks in crypto all the time, the industry is filled with hastily developed products, and project delays are often expected.",
+            "pubDate": "Tue, 09 Nov 2021 15:19:56 +0000",
+            "guid": "https://www.nasdaq.com/articles/crypto-needs-a-new-development-paradigm?time=1636471372",
+            "creator": "Guest Contributors",
+            "category": "Cryptocurrencies,FinTech,Blockchain"
+          },
+          {
+            "title": "It's Time to Take a Closer Look at Your Fixed Income Surveillance",
+            "link": "https://www.nasdaq.com/articles/its-time-to-take-a-closer-look-at-your-fixed-income-surveillance",
+            "description": "Regulators have recently called out fixed income as an asset class where firms need to focus their attention. The feedback from regulators demonstrates the need for firms to reexamine their surveillance programs and update them to accommodate the nuances of the asset class.",
+            "pubDate": "Tue, 09 Nov 2021 13:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/its-time-to-take-a-closer-look-at-your-fixed-income-surveillance?time=1636462874",
+            "creator": "MarketInsite",
+            "category": "Fixed Income,FinTech"
+          },
+          {
+            "title": "Modern Finance is Going Mobile",
+            "link": "https://www.nasdaq.com/articles/modern-finance-is-going-mobile",
+            "description": "In the evolution of technology, across decades and generations, there are expansions of new offerings that create solutions to all sorts of challenges.",
+            "pubDate": "Mon, 08 Nov 2021 20:06:19 +0000",
+            "guid": "https://www.nasdaq.com/articles/modern-finance-is-going-mobile?time=1636402124",
+            "creator": "Guest Contributors",
+            "category": "FinTech"
+          },
+          {
+            "title": "How Blockchain Tech, Digital Currency and the DeFi/Decentralization Movement are Democratizing Global Access and Increasing Personal Safety",
+            "link": "https://www.nasdaq.com/articles/how-blockchain-tech-digital-currency-and-the-defi-decentralization-movement-are",
+            "description": "As the world begins to understand and accept the ideas and forces that underpin the eruption of the digital currency movement, the many benefits of decentralized finance are becoming apparent.",
+            "pubDate": "Mon, 08 Nov 2021 20:02:55 +0000",
+            "guid": "https://www.nasdaq.com/articles/how-blockchain-tech-digital-currency-and-the-defi-decentralization-movement-are?time=1636403568",
+            "creator": "Guest Contributors",
+            "category": "FinTech"
+          },
+          {
+            "title": "PayPal's Market Cap Is Almost Double Goldman Sachs; Why Wall Street Needs to Pay Attention",
+            "link": "https://www.nasdaq.com/articles/paypals-market-cap-is-almost-double-goldman-sachs-why-wall-street-needs-to-pay-attention",
+            "description": "PayPal (PYPL), which is only about 24 years old, has surpassed Goldman Sachs (GS), one of the world's largest financial institutions, in terms of market capitalization.",
+            "pubDate": "Mon, 08 Nov 2021 15:06:21 +0000",
+            "guid": "https://www.nasdaq.com/articles/paypals-market-cap-is-almost-double-goldman-sachs-why-wall-street-needs-to-pay-attention?time=1637071605",
+            "creator": "Naeem Aslam",
+            "category": "Stocks,Markets,Companies,Technology,FinTech",
+            "tickers": "GS"
+          },
+          {
+            "title": "In a Crypto Industry Full of Buzzwords, \"Lending\" May Just be the Next",
+            "link": "https://www.nasdaq.com/articles/in-a-crypto-industry-full-of-buzzwords-lending-may-just-be-the-next-2021-11-05",
+            "description": "This synergistic energy, brand new to the cryptoverse, has given rise to new ideas, burgeoning partnerships, and perhaps most notably, new buzzwords. So what word will join the list next ending. Here's why.",
+            "pubDate": "Fri, 05 Nov 2021 14:47:01 +0000",
+            "guid": "https://www.nasdaq.com/articles/in-a-crypto-industry-full-of-buzzwords-lending-may-just-be-the-next-2021-11-05?time=1636123735",
+            "creator": "Guest Contributors",
+            "category": "Cryptocurrencies,FinTech"
+          },
+          {
+            "title": "Serving the Unbanked: How Borderless Fintech Can Deliver Global Financial Inclusivity",
+            "link": "https://www.nasdaq.com/articles/serving-the-unbanked%3A-how-borderless-fintech-can-deliver-global-financial-inclusivity-2021",
+            "description": "While the lack of financial inclusivity is stark across many continents, fintech is evolving to give communities more opportunities to manage their finance and potentially to fight poverty through better wealth management services.",
+            "pubDate": "Fri, 05 Nov 2021 12:46:49 +0000",
+            "guid": "https://www.nasdaq.com/articles/serving-the-unbanked%3A-how-borderless-fintech-can-deliver-global-financial-inclusivity-2021?time=1636116380",
+            "creator": "Dmytro Spilka",
+            "category": "FinTech,Cryptocurrencies,Banking,Bitcoin,Companies"
+          },
+          {
+            "title": "Can Blockchain Fuel Black Art Sales?",
+            "link": "https://www.nasdaq.com/articles/can-blockchain-fuel-black-art-sales",
+            "description": "Today the primary and secondary markets for Black artists work are at all-time highs, driving some of the most closely watched sales in the industry.",
+            "pubDate": "Fri, 14 Jan 2022 15:28:38 +0000",
+            "guid": "https://www.nasdaq.com/articles/can-blockchain-fuel-black-art-sales?time=1642174121",
+            "creator": "CultureBanx",
+            "category": "Blockchain,Diversity &amp; Inclusion,Culture,Smart Investing,Cryptocurrencies"
+          },
+          {
+            "title": "How Blockchain Will Become a Driving Force on Wall Street",
+            "link": "https://www.nasdaq.com/articles/how-blockchain-will-become-a-driving-force-on-wall-street",
+            "description": "Whilst cryptocurrencies and NFTs have taken center stage in 2021 with Bitcoin repeatedly breaking all-time highs and a non-fungible token taking $91.8 million in auction, blockchain technology continued to evolve away from the limelight.",
+            "pubDate": "Thu, 30 Dec 2021 16:21:20 +0000",
+            "guid": "https://www.nasdaq.com/articles/how-blockchain-will-become-a-driving-force-on-wall-street?time=1640882046",
+            "creator": "Dmytro Spilka",
+            "category": "Blockchain,Technology,Companies,Markets,Investing",
+            "tickers": "CME,NVDA,DOCU,BTC"
+          },
+          {
+            "title": "Crypto ETFs Could Be Compelling in 2022",
+            "link": "https://www.nasdaq.com/articles/crypto-etfs-could-be-compelling-in-2022",
+            "description": "Of course, without a crystal ball, no one knows how bitcoin and other digital assets will perform in the new year. If the largest digital asset cooperates, 2022 could be exciting for the following crypto ETFs.",
+            "pubDate": "Thu, 23 Dec 2021 12:37:28 +0000",
+            "guid": "https://www.nasdaq.com/articles/crypto-etfs-could-be-compelling-in-2022?time=1640263292",
+            "creator": "Todd Shriber",
+            "category": "Cryptocurrencies,Bitcoin,ETFs,Blockchain",
+            "tickers": "SATO,DAPP,BLCN"
+          },
+          {
+            "title": "2021 Has Been a Big Year for Bitcoin: What's Next?",
+            "link": "https://www.nasdaq.com/articles/2021-has-been-a-big-year-for-bitcoin%3A-whats-next",
+            "description": "2021 has been a wild ride for bitcoin (BTC) and cryptocurrencies in general, but if you look past the volatility, it has also been a truly significant year.",
+            "pubDate": "Wed, 22 Dec 2021 15:15:59 +0000",
+            "guid": "https://www.nasdaq.com/articles/2021-has-been-a-big-year-for-bitcoin%3A-whats-next?time=1640186088",
+            "creator": "Martin Tillier",
+            "category": "Bitcoin,Cryptocurrencies,Technology,Blockchain"
+          },
+          {
+            "title": "Decentralized Finance Has A $1.4Bn Problem",
+            "link": "https://www.nasdaq.com/articles/decentralized-finance-has-a-%241.4bn-problem",
+            "description": "Decentralized Finance is the fastest growing sector of the crypto market. With promises of a consumer-centric, open source, and permissionless financial system that is transparent to all, DeFi stands to change the trajectory of consumer and institutional finance.",
+            "pubDate": "Wed, 15 Dec 2021 20:24:34 +0000",
+            "guid": "https://www.nasdaq.com/articles/decentralized-finance-has-a-%241.4bn-problem?time=1639600251",
+            "creator": "Guest Contributors",
+            "category": "Blockchain,Cryptocurrencies"
+          },
+          {
+            "title": "Hedge Funds Eye Reddit for Red Flags, But It Won't Bring the Next Storm",
+            "link": "https://www.nasdaq.com/articles/hedge-funds-eye-reddit-for-red-flags-but-it-wont-bring-the-next-storm",
+            "description": "Make no mistake, the GameStop saga, alongside the AMC rally and Reddit other forays into market adventurism, are indeed harbingers of a larger storm to come. But the storm won come from Reddit",
+            "pubDate": "Tue, 14 Dec 2021 18:35:04 +0000",
+            "guid": "https://www.nasdaq.com/articles/hedge-funds-eye-reddit-for-red-flags-but-it-wont-bring-the-next-storm?time=1639507148",
+            "creator": "Guest Contributors",
+            "category": "Markets,Stocks,Hedge Funds,Blockchain"
+          },
+          {
+            "title": "Social Media on the Blockchain (SocialFi) Could Be Key to Mass Adoption",
+            "link": "https://www.nasdaq.com/articles/social-media-on-the-blockchain-socialfi-could-be-key-to-mass-adoption",
+            "description": "Mass adoption has been a long-standing goal for the blockchain and crypto industry. Almost every business in this space strives for mass adoption in one way or the other.",
+            "pubDate": "Thu, 09 Dec 2021 15:24:16 +0000",
+            "guid": "https://www.nasdaq.com/articles/social-media-on-the-blockchain-socialfi-could-be-key-to-mass-adoption?time=1639063465",
+            "creator": "Guest Contributors",
+            "category": "Blockchain,Cryptocurrencies,Markets,Companies"
+          },
+          {
+            "title": "Beyond KYC: Stricter Privacy Policies are Looming, But DeFi is Here to Stay",
+            "link": "https://www.nasdaq.com/articles/beyond-kyc%3A-stricter-privacy-policies-are-looming-but-defi-is-here-to-stay",
+            "description": "Over the past year, blockchain has taken the world by storm via the decentralized finance (DeFi) sector, which continues to grow exponentially in terms of service offerings and total value locked (TVL).",
+            "pubDate": "Wed, 08 Dec 2021 20:26:58 +0000",
+            "guid": "https://www.nasdaq.com/articles/beyond-kyc%3A-stricter-privacy-policies-are-looming-but-defi-is-here-to-stay?time=1638995864",
+            "creator": "Guest Contributors",
+            "category": "Blockchain,Cryptocurrencies,Technology,Cybersecurity"
+          },
+          {
+            "title": "Upgrading The Behemoth That Is The Bitcoin Blockchain",
+            "link": "https://www.nasdaq.com/articles/upgrading-the-behemoth-that-is-the-bitcoin-blockchain",
+            "description": "Bitcoin has undergone many improvements over the years and not without its share of controversy.",
+            "pubDate": "Tue, 07 Dec 2021 21:55:28 +0000",
+            "guid": "https://www.nasdaq.com/articles/upgrading-the-behemoth-that-is-the-bitcoin-blockchain?time=1638916381",
+            "creator": "Bitcoin Magazine",
+            "category": "Blockchain"
+          },
+          {
+            "title": "Smart Contracts Can Revolutionize Capital Markets, But They Need Standardization First",
+            "link": "https://www.nasdaq.com/articles/smart-contracts-can-revolutionize-capital-markets-but-they-need-standardization-first",
+            "description": "Blockchain technology, more concretely tokenization, could help the bond market operate more securely, efficiently, and quicker than ever, all while extending crucial liquidity.",
+            "pubDate": "Mon, 06 Dec 2021 14:50:33 +0000",
+            "guid": "https://www.nasdaq.com/articles/smart-contracts-can-revolutionize-capital-markets-but-they-need-standardization-first?time=1638802379",
+            "creator": "Guest Contributors",
+            "category": "Technology,Bonds,Blockchain"
+          },
+          {
+            "title": "Advancing DeFi Lending With a Social Graph Credit System",
+            "link": "https://www.nasdaq.com/articles/advancing-defi-lending-with-a-social-graph-credit-system",
+            "description": "Blockchain is disrupting traditional finance from all angles. This technology has the power to democratize the world of finance giving everyone equal access to self banking tools and infrastructure.",
+            "pubDate": "Tue, 30 Nov 2021 14:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/advancing-defi-lending-with-a-social-graph-credit-system?time=1638280800",
+            "creator": "Guest Contributors",
+            "category": "Blockchain,Cryptocurrencies,Alternative Investments,Technology"
+          },
+          {
+            "title": "Yes, Bitcoin Is A Smart Contract Platform",
+            "link": "https://www.nasdaq.com/articles/yes-bitcoin-is-a-smart-contract-platform",
+            "description": "Many think that smart contracts are only executable on overly-complex blockchains, but Bitcoin is a smart contract platform by definition.",
+            "pubDate": "Mon, 29 Nov 2021 14:06:20 +0000",
+            "guid": "https://www.nasdaq.com/articles/yes-bitcoin-is-a-smart-contract-platform?time=1638196382",
+            "creator": "Bitcoin Magazine",
+            "category": "Blockchain"
+          },
+          {
+            "title": "Decentralization Is a Process, Not an Event",
+            "link": "https://www.nasdaq.com/articles/decentralization-is-a-process-not-an-event",
+            "description": "Misinterpretation is prevalent on the concept of decentralization. The approach as a whole needs to be better understood before it is adopted as a remedy for all.",
+            "pubDate": "Wed, 24 Nov 2021 14:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/decentralization-is-a-process-not-an-event?time=1637762400",
+            "creator": "Guest Contributors",
+            "category": "Technology,Markets,Blockchain,Cryptocurrencies"
+          },
+          {
+            "title": "Retail Venture Capital Funding: Analyzing the Post-Blockchain Dynamics",
+            "link": "https://www.nasdaq.com/articles/retail-venture-capital-funding%3A-analyzing-the-post-blockchain-dynamics",
+            "description": "On the bright side of things, the industry is gradually opening up for fairer competition and greater participation of retail investors. Such a phenomenon is especially in courtesy of recent technological innovations in blockchain and cryptography.",
+            "pubDate": "Mon, 22 Nov 2021 18:38:52 +0000",
+            "guid": "https://www.nasdaq.com/articles/retail-venture-capital-funding%3A-analyzing-the-post-blockchain-dynamics?time=1637606285",
+            "creator": "Guest Contributors",
+            "category": "Blockchain,Cryptocurrencies,Venture Capital,Companies,Markets"
+          },
+          {
+            "title": "Could Blockchain Solve Climate Change, Rather Than Create It?",
+            "link": "https://www.nasdaq.com/articles/could-blockchain-solve-climate-change-rather-than-create-it",
+            "description": "Bitcoin and Ethereum tend to be the blockchains decision makers outside the industry think about when distributed ledger technology is raised including as it relates to climate change.",
+            "pubDate": "Tue, 16 Nov 2021 16:29:51 +0000",
+            "guid": "https://www.nasdaq.com/articles/could-blockchain-solve-climate-change-rather-than-create-it?time=1637080320",
+            "creator": "Guest Contributors",
+            "category": "Blockchain,Sustainability,ESG,Bitcoin",
+            "tickers": "BTC,ETH"
+          },
+          {
+            "title": "The Balance Between Art and IP Theft in NFT Culture",
+            "link": "https://www.nasdaq.com/articles/the-balance-between-art-and-ip-theft-in-nft-culture",
+            "description": "The most popular show in Netflix history, “Squid Game,” earned an estimated $900 million for the streaming company. And the producers are not stopping there. They are gearing up for even more revenue as they look towards season two and have secured more than two dozen",
+            "pubDate": "Wed, 19 Jan 2022 22:29:16 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-balance-between-art-and-ip-theft-in-nft-culture?time=1642631581",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies",
+            "tickers": "ETH"
+          },
+          {
+            "title": "Meta Leans In to Tracking Your Emotions in the Metaverse",
+            "link": "https://www.nasdaq.com/articles/meta-leans-in-to-tracking-your-emotions-in-the-metaverse",
+            "description": "New patents held by Facebook parent company Meta Platforms have given us an utterly predictable and bleak glimpse of Our Zucked Future. The concepts suggest that once its shared virtual space Horizon Worlds has reached its full potential, users’ facial expressions and other",
+            "pubDate": "Wed, 19 Jan 2022 19:14:09 +0000",
+            "guid": "https://www.nasdaq.com/articles/meta-leans-in-to-tracking-your-emotions-in-the-metaverse?time=1642627981",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies"
+          },
+          {
+            "title": "What Could Halt Cryptocurrency Momentum?",
+            "link": "https://www.nasdaq.com/articles/what-could-halt-cryptocurrency-momentum",
+            "description": "Millions of investors, speculators, and crypto hobbyists have bought and sold cryptocurrency in the past decade or so, hoping that crypto would be both a powerful investment and a currency of the future.",
+            "pubDate": "Wed, 19 Jan 2022 19:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/what-could-halt-cryptocurrency-momentum?time=1642618800",
+            "creator": "Due.com",
+            "category": "Cryptocurrencies"
+          },
+          {
+            "title": "Cryptocurrency and the ESG Issue: Why Cryptos are More ESG-Friendly Than You Think",
+            "link": "https://www.nasdaq.com/articles/cryptocurrency-and-the-esg-issue%3A-why-cryptos-are-more-esg-friendly-than-you-think",
+            "description": "More and more investors are thinking about environmental, social and corporate governance (ESG) issues when allocating their portfolios. Additionally, cryptocurrency is starting to capture an allocation from a growing number of portfolios.",
+            "pubDate": "Wed, 19 Jan 2022 18:43:12 +0000",
+            "guid": "https://www.nasdaq.com/articles/cryptocurrency-and-the-esg-issue%3A-why-cryptos-are-more-esg-friendly-than-you-think?time=1642619212",
+            "creator": "Ari Zoldan",
+            "category": "Cryptocurrencies,Sustainability,ESG,Bitcoin"
+          },
+          {
+            "title": "The Right (and Wrong Way) to Get Web 3 Adoption",
+            "link": "https://www.nasdaq.com/articles/the-right-and-wrong-way-to-get-web-3-adoption",
+            "description": "Last week, there was a small uproar in the Web 3 world when a new protocol, DeSo, announced an update to its user login flow. Previously, the decentralized media service had asked users to enter their “seed phrase” into the project’s web interface, defying all g",
+            "pubDate": "Wed, 19 Jan 2022 17:43:38 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-right-and-wrong-way-to-get-web-3-adoption?time=1642613581",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies"
+          },
+          {
+            "title": "3 Crypto Mining Stocks With Massive Upside Potential",
+            "link": "https://www.nasdaq.com/articles/3-crypto-mining-stocks-with-massive-upside-potential",
+            "description": "The cryptocurrency space – which investors can gain exposure to through a range of asset classes, including digital currencies, exchange-traded funds (ETFs) and crypto mining stocks, among others – can best be described as volatile.",
+            "pubDate": "Wed, 19 Jan 2022 16:02:40 +0000",
+            "guid": "https://www.nasdaq.com/articles/3-crypto-mining-stocks-with-massive-upside-potential?time=1642620781",
+            "creator": "Kiplinger",
+            "category": "Cryptocurrencies",
+            "tickers": "MARA,BITF,HUT",
+            "partnerlink": [
+              "Newsletter",
+              "Subscribe"
+            ]
+          },
+          {
+            "title": "Liquidity Mining Is Dead. What Comes Next?",
+            "link": "https://www.nasdaq.com/articles/liquidity-mining-is-dead.-what-comes-next",
+            "description": "Liquidity mining is dead, and trying to figure out the best way to replace it is the focus of one of crypto’s hottest subsectors.The primary driver behind 2020’s “DeFi Summer” craze, liquidity mining refers to the practice of a protocol incentivizing user",
+            "pubDate": "Wed, 19 Jan 2022 15:05:53 +0000",
+            "guid": "https://www.nasdaq.com/articles/liquidity-mining-is-dead.-what-comes-next?time=1642609981",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies",
+            "tickers": "ETH"
+          },
+          {
+            "title": "Ethereum Is No Longer a One-Chain Ecosystem",
+            "link": "https://www.nasdaq.com/articles/ethereum-is-no-longer-a-one-chain-ecosystem",
+            "description": "Earlier this week, Evan Van Ness of Starbloom Ventures and Josh Stark of the Ethereum Foundation released an Ethereum year-end report, The Year in Ethereum 2021, diving into activity on the network last year. Here are some of the report’s most promising developments and tre",
+            "pubDate": "Wed, 19 Jan 2022 12:30:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/ethereum-is-no-longer-a-one-chain-ecosystem?time=1642613581",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies",
+            "tickers": "ETH"
+          },
+          {
+            "title": "Is There a Right Way to Invest in Bitcoin in 2022? Yes.",
+            "link": "https://www.nasdaq.com/articles/is-there-a-right-way-to-invest-in-bitcoin-in-2022-yes.",
+            "description": "You’ve read stories about celebrities, like Elon Musk and Mark Cuban, who supposedly are cashing in on Bitcoin. You’ve seen ads for companies that claim to offer a “safe and easy way” to buy it. You probably even know a few people who have dabbled in it. S",
+            "pubDate": "Wed, 19 Jan 2022 09:30:06 +0000",
+            "guid": "https://www.nasdaq.com/articles/is-there-a-right-way-to-invest-in-bitcoin-in-2022-yes.?time=1642598309",
+            "creator": "Kiplinger",
+            "category": "Cryptocurrencies,Smart Investing,Bitcoin",
+            "partnerlink": [
+              "Newsletter",
+              "Subscribe"
+            ]
+          },
+          {
+            "title": "The House Looks Into Crypto's Energy Impact",
+            "link": "https://www.nasdaq.com/articles/the-house-looks-into-cryptos-energy-impact",
+            "description": "A House committee will take a look at crypto and its energy requirements this week. It’s another congressional look at crypto.You’re reading State of Crypto, a CoinDesk newsletter looking at the intersection of cryptocurrency and government. Click here",
+            "pubDate": "Tue, 18 Jan 2022 23:37:51 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-house-looks-into-cryptos-energy-impact?time=1642548781",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies",
+            "tickers": "BTC,ETH"
+          },
+          {
+            "title": "Is Crypto a Ponzi? Define 'Ponzi'",
+            "link": "https://www.nasdaq.com/articles/is-crypto-a-ponzi-define-ponzi",
+            "description": "If you can believe it, scams and Ponzi schemes have existed and thrived in the cryptocurrency industry well before the recent speculative exuberance around decentralized finance (DeFi), non-fungible tokens (NFTs) and token launches on blockchains like Binance Smart Chain. For sur",
+            "pubDate": "Tue, 18 Jan 2022 20:51:26 +0000",
+            "guid": "https://www.nasdaq.com/articles/is-crypto-a-ponzi-define-ponzi?time=1642541581",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies",
+            "tickers": "BTC"
+          },
+          {
+            "title": "As Turkish Lira Instability Continues, More Citizens Bet on Bitcoin",
+            "link": "https://www.nasdaq.com/articles/as-turkish-lira-instability-continues-more-citizens-bet-on-bitcoin",
+            "description": "With the lira, the fiat currency of the Republic of Turkey, continuing and even accelerating its long period of decline, increasing numbers of Turks are turning toward what they see as a more reliable store of value: bitcoin (BTC).",
+            "pubDate": "Tue, 18 Jan 2022 16:00:22 +0000",
+            "guid": "https://www.nasdaq.com/articles/as-turkish-lira-instability-continues-more-citizens-bet-on-bitcoin?time=1642521659",
+            "creator": "Bitcoin Magazine",
+            "category": "Cryptocurrencies,Bitcoin,World Markets"
+          },
+          {
+            "title": "What You Own When You Own an NFT",
+            "link": "https://www.nasdaq.com/articles/what-you-own-when-you-own-an-nft",
+            "description": "I do not know who needs to hear this, but owning an NFT is not the same as owning a project’s copyright or intellectual property. This is the first point I’d like to make.An NFT, or non-fungible token, is a type of digital asset that lives on a blockchain. It has a mo",
+            "pubDate": "Mon, 17 Jan 2022 18:37:45 +0000",
+            "guid": "https://www.nasdaq.com/articles/what-you-own-when-you-own-an-nft?time=1642530781",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies"
+          },
+          {
+            "title": "In the Metaverse, Gameplay Is What Matters",
+            "link": "https://www.nasdaq.com/articles/in-the-metaverse-gameplay-is-what-matters",
+            "description": "Blockchain-based metaverse experiences are a hot topic right now because they combine two of the technology industry’s biggest transformation drivers that have been around for a long time, attracting millions of users and participants – immersive digital experiences a",
+            "pubDate": "Mon, 17 Jan 2022 15:24:45 +0000",
+            "guid": "https://www.nasdaq.com/articles/in-the-metaverse-gameplay-is-what-matters?time=1642516382",
+            "creator": "CoinDesk",
+            "category": "Cryptocurrencies"
+          },
+          {
+            "title": "The Best Cryptocurrencies for 2022",
+            "link": "https://www.nasdaq.com/articles/the-best-cryptocurrencies-for-2022",
+            "description": "In investing, the trend is your friend – until it isn't. That proved true for digital currencies last year, and it could very well define the outlook for the best cryptocurrencies of 2022.",
+            "pubDate": "Fri, 14 Jan 2022 18:48:39 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-best-cryptocurrencies-for-2022?time=1642195981",
+            "creator": "Kiplinger",
+            "category": "Cryptocurrencies",
+            "partnerlink": [
+              "Newsletter",
+              "Subscribe"
+            ]
+          },
+          {
+            "title": "How RepRisk Cuts Through the Noise of ESG Data",
+            "link": "https://www.nasdaq.com/articles/how-reprisk-cuts-through-the-noise-of-esg-data",
+            "description": "Every company faces risks, but as ESG continues to accelerate across the investment landscape, RepRisk, the world’s largest ESG data science company, aims to cut through the noise and provide companies and investors with qualitative research and quantitative data on ESG risks.",
+            "pubDate": "Wed, 19 Jan 2022 13:45:39 +0000",
+            "guid": "https://www.nasdaq.com/articles/how-reprisk-cuts-through-the-noise-of-esg-data?time=1642599911",
+            "creator": "MarketInsite",
+            "category": "ESG,Sustainability,Data and Analytics,Financial Risk Management,Risk &amp; Compliance"
+          },
+          {
+            "title": "Technologies Driving the Evolution of Global Capital Markets",
+            "link": "https://www.nasdaq.com/articles/technologies-driving-the-evolution-of-global-capital-markets",
+            "description": "Global capital markets rapidly accelerated their digitalization journey, leveraging the SaaS model and emerging technologies, according to Faycal Belyazid, Managing Director Middle East &amp; Africa for Nasdaq Market Technology.",
+            "pubDate": "Mon, 10 Jan 2022 12:35:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/technologies-driving-the-evolution-of-global-capital-markets?time=1641818101",
+            "creator": "MarketInsite",
+            "category": "Technology,World Markets,Cloud Computing,Artificial Intelligence,Machine Learning"
+          },
+          {
+            "title": "The Machine Learning Future Is Now: How AI is Disrupting Entire Industries",
+            "link": "https://www.nasdaq.com/articles/the-machine-learning-future-is-now%3A-how-ai-is-disrupting-entire-industries",
+            "description": "Machine learning and artificial intelligence (AI) are no longer the concepts of science fiction – they’re a $1.41 billion industry that is already making big changes to the way we understand and use immense databases for a wide range of purposes.",
+            "pubDate": "Tue, 04 Jan 2022 15:55:03 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-machine-learning-future-is-now%3A-how-ai-is-disrupting-entire-industries?time=1641312000",
+            "creator": "Predictive Oncology",
+            "category": "Artificial Intelligence,Technology,Healthcare,BioTech"
+          },
+          {
+            "title": "Omicron Looms Large Over Healthcare Workers, And AI Can Help",
+            "link": "https://www.nasdaq.com/articles/omicron-looms-large-over-healthcare-workers-and-ai-can-help",
+            "description": "Policy makers need to implement long term solutions to mitigate further burnout from healthcare workers, mainly by using artificial intelligence (AI).",
+            "pubDate": "Tue, 21 Dec 2021 18:01:56 +0000",
+            "guid": "https://www.nasdaq.com/articles/omicron-looms-large-over-healthcare-workers-and-ai-can-help?time=1640110825",
+            "creator": "Guest Contributors",
+            "category": "Coronavirus,Artificial Intelligence"
+          },
+          {
+            "title": "Will AI and ML Revolutionize the Financial Services Industry?",
+            "link": "https://www.nasdaq.com/articles/will-ai-and-ml-revolutionize-the-financial-services-industry",
+            "description": "Artificial intelligence (AI) and machine learning (ML) are playing increasingly important roles in the financial services industry.",
+            "pubDate": "Fri, 10 Dec 2021 15:54:42 +0000",
+            "guid": "https://www.nasdaq.com/articles/will-ai-and-ml-revolutionize-the-financial-services-industry?time=1639151812",
+            "creator": "Bill Hortz",
+            "category": "Financial Advisors,Artificial Intelligence"
+          },
+          {
+            "title": "Straight Talk: A Discussion With Divya Prashanth and Janine Miles",
+            "link": "https://www.nasdaq.com/articles/straight-talk%3A-a-discussion-with-divya-prashanth-and-janine-miles",
+            "description": "We were fortunate to sit down with Divya Prashanth and Janine Miles, cofounders of MySocialPulse, to discuss a range of issues related to fintech innovation, leveraging artificial intelligence (AI) and machine learning (ML) technology to manage compliance, and driving RIA busines",
+            "pubDate": "Tue, 30 Nov 2021 16:37:01 +0000",
+            "guid": "https://www.nasdaq.com/articles/straight-talk%3A-a-discussion-with-divya-prashanth-and-janine-miles?time=1638290229",
+            "creator": "Bo Howell",
+            "category": "Financial Advisors,Companies,Artificial Intelligence"
+          },
+          {
+            "title": "How Artificial Intelligence is Improving Cancer Research",
+            "link": "https://www.nasdaq.com/articles/how-artificial-intelligence-is-improving-cancer-research",
+            "description": "Cancer is one of the most complex diseases that affects humankind, making it an incredibly difficult condition to study and even more difficult to treat.",
+            "pubDate": "Tue, 23 Nov 2021 18:33:42 +0000",
+            "guid": "https://www.nasdaq.com/articles/how-artificial-intelligence-is-improving-cancer-research?time=1637692652",
+            "creator": "Predictive Oncology",
+            "category": "Technology,Artificial Intelligence,BioTech"
+          },
+          {
+            "title": "The Limited Lens of Historical Cancer Research (and How AI Moves Us Beyond It)",
+            "link": "https://www.nasdaq.com/articles/the-limited-lens-of-historical-cancer-research-and-how-ai-moves-us-beyond-it",
+            "description": "A task that was impossible for the past century of cancer research is comparatively simple. By analyzing databases, machine learning algorithms can grasp the nuance of each individual tumor within each individual patient, giving researchers a more informed starting point.",
+            "pubDate": "Fri, 19 Nov 2021 14:06:47 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-limited-lens-of-historical-cancer-research-and-how-ai-moves-us-beyond-it?time=1637330821",
+            "creator": "Predictive Oncology",
+            "category": "BioTech,Artificial Intelligence"
+          },
+          {
+            "title": "The Bitcoin Strategic Advantage",
+            "link": "https://www.nasdaq.com/articles/the-bitcoin-strategic-advantage-2021-11-14",
+            "description": "Bitcoin gives users a decisive strategic advantage which can be used to consolidate a dominant position, forming a power singleton.",
+            "pubDate": "Sun, 14 Nov 2021 20:40:58 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-bitcoin-strategic-advantage-2021-11-14?time=1636925581",
+            "creator": "Bitcoin Magazine",
+            "category": "Artificial Intelligence,Culture,Bitcoin"
+          },
+          {
+            "title": "IBM and the Race to Dominate the Quantum Computing Field",
+            "link": "https://www.nasdaq.com/articles/ibm-and-the-race-to-dominate-the-quantum-computing-field-2021-10-14",
+            "description": "While quantum computing is still in its infancy, it is no ordinary technology. It is attracting huge research efforts and funding by various companies, organizations and even governments.",
+            "pubDate": "Thu, 14 Oct 2021 15:12:01 +0000",
+            "guid": "https://www.nasdaq.com/articles/ibm-and-the-race-to-dominate-the-quantum-computing-field-2021-10-14?time=1634224523",
+            "creator": "Prableen Bajpai",
+            "category": "Quantum Computing,Technology,Companies,Artificial Intelligence"
+          },
+          {
+            "title": "Nasdaq’s Tal Cohen on Adapting to Increased Competition and Bolstering the Sports Betting Market",
+            "link": "https://www.nasdaq.com/articles/nasdaqs-tal-cohen-on-adapting-to-increased-competition-and-bolstering-the-sports-betting",
+            "description": "At a recent Securities Traders Association conference, Nasdaq’s Head of North American Markets Tal Cohen spoke about how the company is adapting to increased competition, leveraging emerging technologies and bolstering the sports betting market.",
+            "pubDate": "Tue, 12 Oct 2021 20:30:40 +0000",
+            "guid": "https://www.nasdaq.com/articles/nasdaqs-tal-cohen-on-adapting-to-increased-competition-and-bolstering-the-sports-betting?time=1634070615",
+            "creator": "MarketInsite",
+            "category": "Markets,Technology,Market Regulation,Cloud Computing,Artificial Intelligence"
+          },
+          {
+            "title": "Will AI Revolutionize Regtech? Part 4: If You Do the Right Thing",
+            "link": "https://www.nasdaq.com/articles/will-ai-revolutionize-regtech-part-4%3A-if-you-do-the-right-thing-2021-10-12",
+            "description": "Get advice for ethically developing and implementing AI projects that make work more fulfilling and build trust with your clients.",
+            "pubDate": "Tue, 12 Oct 2021 19:27:22 +0000",
+            "guid": "https://www.nasdaq.com/articles/will-ai-revolutionize-regtech-part-4%3A-if-you-do-the-right-thing-2021-10-12?time=1634068448",
+            "creator": "Bo Howell",
+            "category": "Financial Advisors,Artificial Intelligence,Technology"
+          },
+          {
+            "title": "The Data-Enabled Digital Marketer: New Tools to Keep Pace with Customers",
+            "link": "https://www.nasdaq.com/articles/the-data-enabled-digital-marketer%3A-new-tools-to-keep-pace-with-customers-2021-10-11",
+            "description": "How brands interact with customers today is vastly different than how they did in early 2020.",
+            "pubDate": "Mon, 11 Oct 2021 19:20:08 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-data-enabled-digital-marketer%3A-new-tools-to-keep-pace-with-customers-2021-10-11?time=1633980261",
+            "creator": "Guest Contributors",
+            "category": "Artificial Intelligence,Data and Analytics"
+          },
+          {
+            "title": "Rise of the Robots: The Future of Robotics is Social",
+            "link": "https://www.nasdaq.com/articles/rise-of-the-robots%3A-the-future-of-robotics-is-social-2021-10-11",
+            "description": "While humans can develop robots that adapt to our behaviour and essentially get along with us, an ongoing challenge remains on how to get humans to get along with the machines.",
+            "pubDate": "Mon, 11 Oct 2021 13:52:57 +0000",
+            "guid": "https://www.nasdaq.com/articles/rise-of-the-robots%3A-the-future-of-robotics-is-social-2021-10-11?time=1633961771",
+            "creator": "Guest Contributors",
+            "category": "Technology,Jobs &amp; Unemployment,Companies,Artificial Intelligence"
+          },
+          {
+            "title": "World Reimagined: The Metaverse, Explained, And How to Invest in It",
+            "link": "https://www.nasdaq.com/articles/world-reimagined%3A-the-metaverse-explained-and-how-to-invest-in-it-2021-10-01",
+            "description": "If you’ve been following the developments in the cryptocurrency realm, in augmented/virtual reality, or in online gaming, you’ve probably heard the term metaverse.",
+            "pubDate": "Fri, 01 Oct 2021 18:52:23 +0000",
+            "guid": "https://www.nasdaq.com/articles/world-reimagined%3A-the-metaverse-explained-and-how-to-invest-in-it-2021-10-01?time=1633114495",
+            "creator": "Chris Versace",
+            "category": "World Reimagined,Technology,Artificial Intelligence"
+          },
+          {
+            "title": "Why Carbon Credit ETFs Soared in 2021",
+            "link": "https://www.nasdaq.com/articles/why-carbon-credit-etfs-soared-in-2021",
+            "description": "",
+            "pubDate": "Thu, 20 Jan 2022 20:51:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-carbon-credit-etfs-soared-in-2021?time=1642715402",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "AAPL,MSFT,BIDU,TCEHY,BABA"
+          },
+          {
+            "title": "Technology Sector Update for 01/20/2022: DATS, BIGC, VRAR, IAS",
+            "link": "https://www.nasdaq.com/articles/technology-sector-update-for-01-20-2022%3A-dats-bigc-vrar-ias",
+            "description": "Technology stocks were ending with moderate gains, with the SPDR Technology Select Sector ETF (XLK) Thursday rising 0.5% although the Philadelphia Semiconductor Index (^SOX) slipped 0.3% this afternoon, giving back a midday advance.",
+            "pubDate": "Thu, 20 Jan 2022 20:25:22 +0000",
+            "guid": "https://www.nasdaq.com/articles/technology-sector-update-for-01-20-2022%3A-dats-bigc-vrar-ias?time=1642710781",
+            "creator": "MTNewswires",
+            "category": "Technology",
+            "tickers": "DATS,BIGC,VRAR,IAS",
+            "partnerlink": [
+              "Real Time Analyst Upgrades/Downgrades",
+              "Real Time Stock News &amp; Trading Ideas",
+              "Stock &amp; ETF News for iPad"
+            ]
+          },
+          {
+            "title": "3 Value Stocks Breaking out in 2022",
+            "link": "https://www.nasdaq.com/articles/3-value-stocks-breaking-out-in-2022",
+            "description": "",
+            "pubDate": "Thu, 20 Jan 2022 18:32:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/3-value-stocks-breaking-out-in-2022?time=1642707002",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "ANDE,INGR,ABBV"
+          },
+          {
+            "title": "Technology Sector Update for 01/20/2022: BIGC,VRAR,IAS",
+            "link": "https://www.nasdaq.com/articles/technology-sector-update-for-01-20-2022%3A-bigcvrarias",
+            "description": "Technology stocks were leading Thursday's markets advance, with the SPDR Technology Select Sector ETF (XLK) rising 1.6% and the Philadelphia Semiconductor Index advancing 1.0% this afternoon.",
+            "pubDate": "Thu, 20 Jan 2022 18:02:32 +0000",
+            "guid": "https://www.nasdaq.com/articles/technology-sector-update-for-01-20-2022%3A-bigcvrarias?time=1642703581",
+            "creator": "MTNewswires",
+            "category": "Technology",
+            "tickers": "BIGC,VRAR,IAS",
+            "partnerlink": [
+              "Real Time Analyst Upgrades/Downgrades",
+              "Real Time Stock News &amp; Trading Ideas",
+              "Stock &amp; ETF News for iPad"
+            ]
+          },
+          {
+            "title": "Nasdaq in Correction: ETF Strategies to Play",
+            "link": "https://www.nasdaq.com/articles/nasdaq-in-correction%3A-etf-strategies-to-play",
+            "description": "The Nasdaq, heavy on technology and growth stocks, is now off 10% from its November record, ensuring the fact that it has entered a correction territory. The Nasdaq Composite has lost 8% this year as investors continue to walk out of the high-growth tech shares as interes",
+            "pubDate": "Thu, 20 Jan 2022 18:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/nasdaq-in-correction%3A-etf-strategies-to-play?time=1642704901",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "XLV,VDC,SDOG,SQQQ,SPYG"
+          },
+          {
+            "title": "Technologies That Will Impact the Financial Services Industry in 2022",
+            "link": "https://www.nasdaq.com/articles/technologies-that-will-impact-the-financial-services-industry-in-2022",
+            "description": "Twenty years ago, during the internet revolution, we saw many new services, products and companies emerge, and others disappear. Now, we are in the digital age and another revolution is underway.",
+            "pubDate": "Thu, 20 Jan 2022 17:52:32 +0000",
+            "guid": "https://www.nasdaq.com/articles/technologies-that-will-impact-the-financial-services-industry-in-2022?time=1642701154",
+            "creator": "Guest Contributors",
+            "category": "Technology,Markets,Artificial Intelligence,Cloud Computing,Coronavirus"
+          },
+          {
+            "title": "Top Stock Reports for NVIDIA, Chevron &amp; Accenture",
+            "link": "https://www.nasdaq.com/articles/top-stock-reports-for-nvidia-chevron-accenture",
+            "description": "Thursday, January 20, 2022The Zacks Research Daily presents the best research output of our analyst team. Today's Research Daily features new research reports on 16 major stocks, including NVIDIA Corporation (NVDA), Chevron Corporation (CVX), and Accenture plc (ACN). Thes",
+            "pubDate": "Thu, 20 Jan 2022 17:31:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/top-stock-reports-for-nvidia-chevron-accenture?time=1642702801",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "QCOM,ACN,CVX,AXP,NVDA"
+          },
+          {
+            "title": "Defensive ETF Strategies to Tackle Wall Street's Dull Start to 2022",
+            "link": "https://www.nasdaq.com/articles/defensive-etf-strategies-to-tackle-wall-streets-dull-start-to-2022",
+            "description": "Wall Street has been volatile since the beginning of 2022. The reason for this market slowdown can essentially be the soaring benchmark 10-year Treasury yields, which went up as high as above 1.90% on Jan 19 (hitting the highest level since December 2019). The Federal Res",
+            "pubDate": "Thu, 20 Jan 2022 17:13:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/defensive-etf-strategies-to-tackle-wall-streets-dull-start-to-2022?time=1642702202",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "SDY,VIG,NOBL,QUAL,SPHQ"
+          },
+          {
+            "title": "Rite Aid (RAD) Down 16.1% Since Last Earnings Report: Can It Rebound?",
+            "link": "https://www.nasdaq.com/articles/rite-aid-rad-down-16.1-since-last-earnings-report%3A-can-it-rebound",
+            "description": "It has been about a month since the last earnings report for Rite Aid (RAD). Shares have lost about 16.1% in that time frame, underperforming the S&amp;P 500.",
+            "pubDate": "Thu, 20 Jan 2022 16:30:10 +0000",
+            "guid": "https://www.nasdaq.com/articles/rite-aid-rad-down-16.1-since-last-earnings-report%3A-can-it-rebound?time=1642700401",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "RAD"
+          },
+          {
+            "title": "Apogee Enterprises (APOG) Down 0.5% Since Last Earnings Report: Can It Rebound?",
+            "link": "https://www.nasdaq.com/articles/apogee-enterprises-apog-down-0.5-since-last-earnings-report%3A-can-it-rebound",
+            "description": "It has been about a month since the last earnings report for Apogee Enterprises (APOG). Shares have lost about 0.5% in that time frame, outperforming the S&amp;P 500.",
+            "pubDate": "Thu, 20 Jan 2022 16:30:10 +0000",
+            "guid": "https://www.nasdaq.com/articles/apogee-enterprises-apog-down-0.5-since-last-earnings-report%3A-can-it-rebound?time=1642700401",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "APOG"
+          },
+          {
+            "title": "Why Is Enerpac (EPAC) Down 2.3% Since Last Earnings Report?",
+            "link": "https://www.nasdaq.com/articles/why-is-enerpac-epac-down-2.3-since-last-earnings-report",
+            "description": "It has been about a month since the last earnings report for Enerpac (EPAC). Shares have lost about 2.3% in that time frame, outperforming the S&amp;P 500.",
+            "pubDate": "Thu, 20 Jan 2022 16:30:09 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-is-enerpac-epac-down-2.3-since-last-earnings-report?time=1642700401",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "EPAC"
+          },
+          {
+            "title": "Neogen (NEOG) Down 19% Since Last Earnings Report: Can It Rebound?",
+            "link": "https://www.nasdaq.com/articles/neogen-neog-down-19-since-last-earnings-report%3A-can-it-rebound",
+            "description": "A month has gone by since the last earnings report for Neogen (NEOG). Shares have lost about 19% in that time frame, underperforming the S&amp;P 500.",
+            "pubDate": "Thu, 20 Jan 2022 16:30:09 +0000",
+            "guid": "https://www.nasdaq.com/articles/neogen-neog-down-19-since-last-earnings-report%3A-can-it-rebound?time=1642700401",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "NEOG"
+          },
+          {
+            "title": "FactSet (FDS) Down 10% Since Last Earnings Report: Can It Rebound?",
+            "link": "https://www.nasdaq.com/articles/factset-fds-down-10-since-last-earnings-report%3A-can-it-rebound",
+            "description": "A month has gone by since the last earnings report for FactSet Research (FDS). Shares have lost about 10% in that time frame, underperforming the S&amp;P 500.",
+            "pubDate": "Thu, 20 Jan 2022 16:30:08 +0000",
+            "guid": "https://www.nasdaq.com/articles/factset-fds-down-10-since-last-earnings-report%3A-can-it-rebound?time=1642700401",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "FDS"
+          },
+          {
+            "title": "BlackBerry (BB) Down 5.1% Since Last Earnings Report: Can It Rebound?",
+            "link": "https://www.nasdaq.com/articles/blackberry-bb-down-5.1-since-last-earnings-report%3A-can-it-rebound",
+            "description": "A month has gone by since the last earnings report for BlackBerry (BB). Shares have lost about 5.1% in that time frame, underperforming the S&amp;P 500.",
+            "pubDate": "Thu, 20 Jan 2022 16:30:07 +0000",
+            "guid": "https://www.nasdaq.com/articles/blackberry-bb-down-5.1-since-last-earnings-report%3A-can-it-rebound?time=1642700401",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "BB"
+          },
+          {
+            "title": "UnitedHealth's Solid Q4 Earnings Put These ETFs in Focus",
+            "link": "https://www.nasdaq.com/articles/unitedhealths-solid-q4-earnings-put-these-etfs-in-focus",
+            "description": "The largest U.S. health insurer UnitedHealth Group UNH reported better-than-expected fourth-quarter 2021 results, breezing past the Zacks Consensus Estimate for both earnings and revenues. The company reaffirmed its full-year earnings (read: Dow ETF in Focus Going Into Q4",
+            "pubDate": "Thu, 20 Jan 2022 16:10:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/unitedhealths-solid-q4-earnings-put-these-etfs-in-focus?time=1642698301",
+            "creator": "Zacks",
+            "category": "Technology",
+            "tickers": "UNH,XLV,IYH,VHT,IHF"
+          },{
+            "title": "See Which Of The Latest 13F Filers Holds Abbott Laboratories",
+            "link": "https://www.nasdaq.com/articles/see-which-of-the-latest-13f-filers-holds-abbott-laboratories",
+            "description": "At Holdings Channel, we have reviewed the latest batch of the 20 most recent 13F filings for the 12/31/2021 reporting period, and noticed that Abbott Laboratories (Symbol: ABT) was held by 12 of these funds.  When hedge fund managers appear to be thinking alike, we find it is a g",
+            "pubDate": "Thu, 20 Jan 2022 22:13:20 +0000",
+            "guid": "https://www.nasdaq.com/articles/see-which-of-the-latest-13f-filers-holds-abbott-laboratories?time=1642716902",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Low Priced Dividend Stocks",
+              "SLB Historical Earnings",
+              "ABDC market cap history"
+            ]
+          },
+          {
+            "title": "ENTG Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/entg-crosses-below-key-moving-average-level",
+            "description": "In trading on Thursday, shares of Entegris Inc (Symbol: ENTG) crossed below their 200 day moving average of $125.73, changing hands as low as $123.72 per share.  Entegris Inc shares are currently trading down about 2.7% on the day.  The chart below shows the one year performanc",
+            "pubDate": "Thu, 20 Jan 2022 22:03:32 +0000",
+            "guid": "https://www.nasdaq.com/articles/entg-crosses-below-key-moving-average-level?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Top Stocks Held By Ken Griffin",
+              "MGPI Dividend Growth Rate",
+              "PETZ shares outstanding history"
+            ]
+          },
+          {
+            "title": "DIOD Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/diod-crosses-below-key-moving-average-level",
+            "description": "In trading on Thursday, shares of Diodes, Inc. (Symbol: DIOD) crossed below their 200 day moving average of $89.42, changing hands as low as $88.48 per share.  Diodes, Inc. shares are currently trading off about 2.1% on the day.  The chart below shows the one year performance o",
+            "pubDate": "Thu, 20 Jan 2022 22:02:03 +0000",
+            "guid": "https://www.nasdaq.com/articles/diod-crosses-below-key-moving-average-level?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Selling Calls For Income",
+              "MA Insider Buying",
+              "Funds Holding JAXB"
+            ]
+          },
+          {
+            "title": "XRX Makes Notable Cross Below Critical Moving Average",
+            "link": "https://www.nasdaq.com/articles/xrx-makes-notable-cross-below-critical-moving-average",
+            "description": "In trading on Thursday, shares of Xerox Holdings Corp (Symbol: XRX) crossed below their 200 day moving average of $22.42, changing hands as low as $22.38 per share.  Xerox Holdings Corp shares are currently trading down about 1.8% on the day.  The chart below shows the one year",
+            "pubDate": "Thu, 20 Jan 2022 22:01:25 +0000",
+            "guid": "https://www.nasdaq.com/articles/xrx-makes-notable-cross-below-critical-moving-average?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Cheap Smallcap Stocks",
+              "Funds Holding BIZD",
+              "BFC Stock Predictions"
+            ]
+          },
+          {
+            "title": "Applied Materials (AMAT) Shares Cross Below 200 DMA",
+            "link": "https://www.nasdaq.com/articles/applied-materials-amat-shares-cross-below-200-dma",
+            "description": "In trading on Thursday, shares of Applied Materials, Inc. (Symbol: AMAT) crossed below their 200 day moving average of $139.25, changing hands as low as $138.56 per share.  Applied Materials, Inc. shares are currently trading down about 2.7% on the day.  The chart below shows t",
+            "pubDate": "Thu, 20 Jan 2022 22:01:23 +0000",
+            "guid": "https://www.nasdaq.com/articles/applied-materials-amat-shares-cross-below-200-dma?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Preferred Stock Ex-Dividend Calendar",
+              "IID shares outstanding history",
+              "CFFI Insider Buying"
+            ]
+          },
+          {
+            "title": "Littelfuse (LFUS) Shares Cross Below 200 DMA",
+            "link": "https://www.nasdaq.com/articles/littelfuse-lfus-shares-cross-below-200-dma",
+            "description": "In trading on Thursday, shares of Littelfuse Inc (Symbol: LFUS) crossed below their 200 day moving average of $278.49, changing hands as low as $276.80 per share.  Littelfuse Inc shares are currently trading down about 3.1% on the day.  The chart below shows the one year perfor",
+            "pubDate": "Thu, 20 Jan 2022 22:00:44 +0000",
+            "guid": "https://www.nasdaq.com/articles/littelfuse-lfus-shares-cross-below-200-dma?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "DRIP Returns Calculator",
+              "NGD Options Chain",
+              "Funds Holding CCV"
+            ]
+          },
+          {
+            "title": "SFNC Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/sfnc-crosses-below-key-moving-average-level",
+            "description": "In trading on Thursday, shares of Simmons First National Corp (Symbol: SFNC) crossed below their 200 day moving average of $29.59, changing hands as low as $29.38 per share.  Simmons First National Corp shares are currently trading down about 2.9% on the day.  The chart below s",
+            "pubDate": "Thu, 20 Jan 2022 22:00:33 +0000",
+            "guid": "https://www.nasdaq.com/articles/sfnc-crosses-below-key-moving-average-level?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Past Earnings",
+              "PKOH Next Dividend Date",
+              "OFG Options Chain"
+            ]
+          },
+          {
+            "title": "Lam Research Breaks Below 200-Day Moving Average - Notable for LRCX",
+            "link": "https://www.nasdaq.com/articles/lam-research-breaks-below-200-day-moving-average-notable-for-lrcx",
+            "description": "In trading on Thursday, shares of Lam Research Corp (Symbol: LRCX) crossed below their 200 day moving average of $625.65, changing hands as low as $617.52 per share.  Lam Research Corp shares are currently trading off about 3.6% on the day.  The chart below shows the one year p",
+            "pubDate": "Thu, 20 Jan 2022 22:00:26 +0000",
+            "guid": "https://www.nasdaq.com/articles/lam-research-breaks-below-200-day-moving-average-notable-for-lrcx?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Monthly Dividend Paying Stocks",
+              "CC Price Target",
+              "MACA YTD Return"
+            ]
+          },
+          {
+            "title": "WEN Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/wen-crosses-below-key-moving-average-level-0",
+            "description": "In trading on Thursday, shares of Wendy's Co (Symbol: WEN) crossed below their 200 day moving average of $22.75, changing hands as low as $22.17 per share.  Wendy's Co shares are currently trading off about 4.4% on the day.  The chart below shows the one year performance of WEN",
+            "pubDate": "Thu, 20 Jan 2022 21:59:44 +0000",
+            "guid": "https://www.nasdaq.com/articles/wen-crosses-below-key-moving-average-level-0?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Application Software Dividend Stocks",
+              "SINT market cap history",
+              "ZAGG Historical Stock Prices"
+            ]
+          },
+          {
+            "title": "MTOR Makes Notable Cross Below Critical Moving Average",
+            "link": "https://www.nasdaq.com/articles/mtor-makes-notable-cross-below-critical-moving-average",
+            "description": "In trading on Thursday, shares of Meritor Inc (Symbol: MTOR) crossed below their 200 day moving average of $25.01, changing hands as low as $24.35 per share.  Meritor Inc shares are currently trading down about 4.4% on the day.  The chart below shows the one year performance of",
+            "pubDate": "Thu, 20 Jan 2022 21:55:50 +0000",
+            "guid": "https://www.nasdaq.com/articles/mtor-makes-notable-cross-below-critical-moving-average?time=1642715402",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Top Monthly Dividend Paying Stocks",
+              "Institutional Holders of BCTX",
+              "Institutional Holders of JPHF"
+            ]
+          },
+          {
+            "title": "Piedmont Office Realty Trust (PDM) Shares Cross Below 200 DMA",
+            "link": "https://www.nasdaq.com/articles/piedmont-office-realty-trust-pdm-shares-cross-below-200-dma",
+            "description": "In trading on Thursday, shares of Piedmont Office Realty Trust Inc (Symbol: PDM) crossed below their 200 day moving average of $18.44, changing hands as low as $18.39 per share.  Piedmont Office Realty Trust Inc shares are currently trading off about 0.9% on the day.  The chart",
+            "pubDate": "Thu, 20 Jan 2022 21:55:40 +0000",
+            "guid": "https://www.nasdaq.com/articles/piedmont-office-realty-trust-pdm-shares-cross-below-200-dma?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Earnings History",
+              "Top Ten Hedge Funds Holding OPWR",
+              "VAL Insider Buying"
+            ]
+          },
+          {
+            "title": "Notable Two Hundred Day Moving Average Cross - HOMB",
+            "link": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-homb",
+            "description": "In trading on Thursday, shares of Home BancShares Inc (Symbol: HOMB) crossed below their 200 day moving average of $24.61, changing hands as low as $24.07 per share.  Home BancShares Inc shares are currently trading down about 3.2% on the day.  The chart below shows the one yea",
+            "pubDate": "Thu, 20 Jan 2022 21:55:36 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-two-hundred-day-moving-average-cross-homb?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Stock Options Channel",
+              "Funds Holding FRA",
+              "FuelCell Energy Historical Earnings"
+            ]
+          },
+          {
+            "title": "GPI Makes Notable Cross Below Critical Moving Average",
+            "link": "https://www.nasdaq.com/articles/gpi-makes-notable-cross-below-critical-moving-average",
+            "description": "In trading on Thursday, shares of Group 1 Automotive, Inc. (Symbol: GPI) crossed below their 200 day moving average of $176.07, changing hands as low as $172.56 per share.  Group 1 Automotive, Inc. shares are currently trading off about 3.6% on the day.  The chart below shows t",
+            "pubDate": "Thu, 20 Jan 2022 21:55:27 +0000",
+            "guid": "https://www.nasdaq.com/articles/gpi-makes-notable-cross-below-critical-moving-average?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Information Technology Services Dividend Stocks",
+              "Marsh and McLennan Companies MACD",
+              "HCCO YTD Return"
+            ]
+          },
+          {
+            "title": "First Trust Nasdaq Transportation (FTXR) Shares Cross Below 200 DMA",
+            "link": "https://www.nasdaq.com/articles/first-trust-nasdaq-transportation-ftxr-shares-cross-below-200-dma",
+            "description": "In trading on Thursday, shares of the First Trust Nasdaq Transportation ETF (Symbol: FTXR) crossed below their 200 day moving average of $33.31, changing hands as low as $33.25 per share.  First Trust Nasdaq Transportation shares are currently trading down about 0.3% on the day",
+            "pubDate": "Thu, 20 Jan 2022 21:54:14 +0000",
+            "guid": "https://www.nasdaq.com/articles/first-trust-nasdaq-transportation-ftxr-shares-cross-below-200-dma?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,ETFs",
+            "partnerlink": [
+              "Cheap Utilities Stocks",
+              "MSGS Split History",
+              "KBWD Options Chain"
+            ]
+          },
+          {
+            "title": "QQQ Makes Notable Cross Below Critical Moving Average",
+            "link": "https://www.nasdaq.com/articles/qqq-makes-notable-cross-below-critical-moving-average",
+            "description": "In trading on Thursday, shares of the Invesco QQQ ETF (Symbol: QQQ) crossed below their 200 day moving average of $365.35, changing hands as low as $364.39 per share.  Invesco QQQ shares are currently trading down about 0.4% on the day.  The chart below shows the one year perfo",
+            "pubDate": "Thu, 20 Jan 2022 21:53:06 +0000",
+            "guid": "https://www.nasdaq.com/articles/qqq-makes-notable-cross-below-critical-moving-average?time=1642715402",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,ETFs,Indexes",
+            "partnerlink": [
+              "Cheapest Stocks Right Now",
+              "ADMS Options Chain",
+              "WMB YTD Return"
+            ]
+          },
+          {
+            "title": "Trade Ideas | December 2021 AI Dashboard: Monthly Sector Transactions and Rotations",
+            "link": "https://www.nasdaq.com/articles/trade-ideas-december-2021-ai-dashboard%3A-monthly-sector-transactions-and-rotations",
+            "description": "Over the course of December 2021 HOLLY strategized a total of 33 trades down from 57 in November. Overall performance was movement of less than 0.0%, compared to the SPY at 2.9%. Overall, HOLLY’s performance in a high volatility and event driven environment continues to fall with",
+            "pubDate": "Thu, 20 Jan 2022 15:56:26 +0000",
+            "guid": "https://www.nasdaq.com/articles/trade-ideas-december-2021-ai-dashboard%3A-monthly-sector-transactions-and-rotations?time=1642694192",
+            "creator": "David Aferiat",
+            "category": "Financial Advisors"
+          },
+          {
+            "title": "10 Things Advisors Shouldn’t Do (Just Sayin’)",
+            "link": "https://www.nasdaq.com/articles/10-things-advisors-shouldnt-do-just-sayin",
+            "description": "It is the end of the year, so sit back and prepare to laugh out loud and have a little fun with Adam and Derek as they give you 10 things that you absolutely should NOT be doing as an advisor.",
+            "pubDate": "Thu, 20 Jan 2022 14:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/10-things-advisors-shouldnt-do-just-sayin?time=1642687200",
+            "creator": "H. Adam Holt",
+            "category": "Financial Advisors"
+          },
+          {
+            "title": "Starting a Tax Practice: 2 Ways to Increase Your Offerings and Get New Clients",
+            "link": "https://www.nasdaq.com/articles/starting-a-tax-practice%3A-2-ways-to-increase-your-offerings-and-get-new-clients",
+            "description": "Starting a tax practice is proven to grow your existing financial services business.",
+            "pubDate": "Wed, 19 Jan 2022 18:28:24 +0000",
+            "guid": "https://www.nasdaq.com/articles/starting-a-tax-practice%3A-2-ways-to-increase-your-offerings-and-get-new-clients?time=1642617045",
+            "creator": "C2P Enterprises",
+            "category": "Taxes,Financial Advisors"
+          },
+          {
+            "title": "The Best of Asset-Map: The Top 10 Most-Read Blogs of 2021",
+            "link": "https://www.nasdaq.com/articles/the-best-of-asset-map%3A-the-top-10-most-read-blogs-of-2021",
+            "description": "2021 has been an interesting year, to say the least. We were finally able to safely attend events and see friends and family. But during it all, we kept going forward!",
+            "pubDate": "Wed, 19 Jan 2022 15:41:33 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-best-of-asset-map%3A-the-top-10-most-read-blogs-of-2021?time=1642606882",
+            "creator": "H. Adam Holt",
+            "category": "Financial Advisors"
+          },
+          {
+            "title": "What It Takes for Advisors to Win With Marketing Today",
+            "link": "https://www.nasdaq.com/articles/what-it-takes-for-advisors-to-win-with-marketing-today",
+            "description": "Financial services professionals need to develop a better understanding and appreciation for what it takes to successfully operate and compete in a business environment of accelerating change.",
+            "pubDate": "Wed, 19 Jan 2022 14:11:14 +0000",
+            "guid": "https://www.nasdaq.com/articles/what-it-takes-for-advisors-to-win-with-marketing-today?time=1642601467",
+            "creator": "Bill Hortz",
+            "category": "Financial Advisors,Companies,FinTech"
+          },
+          {
+            "title": "Start Your New Year With a Holistic Marketing Approach",
+            "link": "https://www.nasdaq.com/articles/start-your-new-year-with-a-holistic-marketing-approach",
+            "description": "When you think about marketing what do you think of? Advertising on a billboard? Sending birthday cards to clients and leads? A few financial-related social media posts?",
+            "pubDate": "Tue, 18 Jan 2022 16:14:28 +0000",
+            "guid": "https://www.nasdaq.com/articles/start-your-new-year-with-a-holistic-marketing-approach?time=1642522486",
+            "creator": "Brad Swineheart",
+            "category": "Financial Advisors,Companies"
+          },
+          {
+            "title": "What Is Evergreen Content and Why Advisors Should Focus On It",
+            "link": "https://www.nasdaq.com/articles/what-is-evergreen-content-and-why-advisors-should-focus-on-it",
+            "description": "As a financial advisor, you’re constantly looking for ways to improve the bottom line. This can be done using any number of marketing strategies and investments.",
+            "pubDate": "Fri, 14 Jan 2022 18:41:57 +0000",
+            "guid": "https://www.nasdaq.com/articles/what-is-evergreen-content-and-why-advisors-should-focus-on-it?time=1642185723",
+            "creator": "Jeremiah Desmarais",
+            "category": "Financial Advisors,Companies"
+          },
+          {
+            "title": "Successfully Engage Family in Succession Planning Conversations",
+            "link": "https://www.nasdaq.com/articles/successfully-engage-family-in-succession-planning-conversations",
+            "description": "In trying times it’s more important than ever to actively engage in life. Still, there is a danger continuing to defer family succession planning conversations.",
+            "pubDate": "Fri, 14 Jan 2022 15:32:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/successfully-engage-family-in-succession-planning-conversations?time=1642174449",
+            "creator": "Hugh Massie",
+            "category": "Financial Advisors,Personal Finance"
+          },
+          {
+            "title": "State Retirement Program Mandates: What States Have Them and When Do They Take Effect?",
+            "link": "https://www.nasdaq.com/articles/state-retirement-program-mandates%3A-what-states-have-them-and-when-do-they-take-effect",
+            "description": "Currently, there are 14 states with retirement program mandates to help individuals save for retirement.",
+            "pubDate": "Thu, 13 Jan 2022 18:37:42 +0000",
+            "guid": "https://www.nasdaq.com/articles/state-retirement-program-mandates%3A-what-states-have-them-and-when-do-they-take-effect?time=1642108673",
+            "creator": "Vestwell",
+            "category": "Retirement,Financial Advisors"
+          },
+          {
+            "title": "The Importance of a Comprehensive and Flexible Service Solution for ETF Fund Launches",
+            "link": "https://www.nasdaq.com/articles/the-importance-of-a-comprehensive-and-flexible-service-solution-for-etf-fund-launches",
+            "description": "There is no doubt ETFs can have a valuable place in investor’s portfolios and as part of an asset manager’s product lineup. However, there are numerous nuances to ETFs that make them different than traditional mutual funds",
+            "pubDate": "Wed, 12 Jan 2022 18:57:25 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-importance-of-a-comprehensive-and-flexible-service-solution-for-etf-fund-launches?time=1642014889",
+            "creator": "Ultimus Fund Solutions",
+            "category": "Financial Advisors"
+          },
+          {
+            "title": "Top 10 Issues to Consider When Registering a Digital Asset Fund",
+            "link": "https://www.nasdaq.com/articles/top-10-issues-to-consider-when-registering-a-digital-asset-fund",
+            "description": "Need help navigating the regulatory gauntlet of registering a digital asset fund? Get our advice here.",
+            "pubDate": "Tue, 11 Jan 2022 21:54:30 +0000",
+            "guid": "https://www.nasdaq.com/articles/top-10-issues-to-consider-when-registering-a-digital-asset-fund?time=1641938096",
+            "creator": "Bo Howell",
+            "category": "Financial Advisors,Cryptocurrencies"
+          },
+          {
+            "title": "A Rotation in the Markets",
+            "link": "https://www.nasdaq.com/articles/a-rotation-in-the-markets",
+            "description": "One week into the new year, and a new year has brought new market leadership.",
+            "pubDate": "Tue, 11 Jan 2022 14:20:55 +0000",
+            "guid": "https://www.nasdaq.com/articles/a-rotation-in-the-markets?time=1641911316",
+            "creator": "Brandon Bischof",
+            "category": "Financial Advisors,Markets"
+          },
+          {
+            "title": "The 14 Charts That Defined 2021 With Josh Brown and Friends",
+            "link": "https://www.nasdaq.com/articles/the-14-charts-that-defined-2021-with-josh-brown-and-friends",
+            "description": "For a further look at the 14 trends that made 2021 what it was—and to find out whether New York (Prince Street Pizza) or Chicago (Lou Malnati’s) won the “best pizza” battle—watch the replay below, or read on for highlights.",
+            "pubDate": "Tue, 11 Jan 2022 14:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/the-14-charts-that-defined-2021-with-josh-brown-and-friends?time=1641909600",
+            "creator": "YCharts",
+            "category": "Markets,Economy,Financial Advisors"
+          },
+          {
+            "title": "Let Tech Help You Include Behavioral Diversity Among Your Metrics",
+            "link": "https://www.nasdaq.com/articles/let-tech-help-you-include-behavioral-diversity-among-your-metrics",
+            "description": "I’m always attracted to places with an “all are welcome” sign. Still, I’ve yet to see such a sign displayed in a corporate setting – only social and cultural ones.",
+            "pubDate": "Mon, 10 Jan 2022 18:04:27 +0000",
+            "guid": "https://www.nasdaq.com/articles/let-tech-help-you-include-behavioral-diversity-among-your-metrics?time=1641838029",
+            "creator": "Leon Morales",
+            "category": "Financial Advisors,Technology,Diversity &amp; Inclusion"
+          },
+          {
+            "title": "Top Advisor Marketing Podcast: 342. Our 7 Biggest Marketing Lessons From 2021 for Financial Advisors",
+            "link": "https://www.nasdaq.com/articles/top-advisor-marketing-podcast%3A-342.-our-7-biggest-marketing-lessons-from-2021-for",
+            "description": "In this episode, Matt Halloran and Kirk Lowe share their seven biggest marketing lessons from 2021. They turn these lessons into strategies that you can implement in 2022 to create marketing that scales your credibility and attracts ideal clients.",
+            "pubDate": "Mon, 10 Jan 2022 14:00:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/top-advisor-marketing-podcast%3A-342.-our-7-biggest-marketing-lessons-from-2021-for?time=1641825902",
+            "creator": "Kirk Lowe",
+            "category": "Financial Advisors"
+          },
+          {
+            "title": "Why Web3's Decentralized Dream Is in the Hands of Its Creators and Consumers",
+            "link": "https://www.nasdaq.com/articles/why-web3s-decentralized-dream-is-in-the-hands-of-its-creators-and-consumers",
+            "description": "However, in my view, what happens next isn’t in the hands of the money men and women. Ultimately, whether Web3 can live up to the decentralized dream of its proponents or as Dorsey suggests, be controlled by institutional vested interest, will depend on us.",
+            "pubDate": "Thu, 13 Jan 2022 16:19:15 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-web3s-decentralized-dream-is-in-the-hands-of-its-creators-and-consumers?time=1642090792",
+            "creator": "Guest Contributors",
+            "category": "Technology,Social Media,Innovation,Companies"
+          },
+          {
+            "title": "Who Led the Patent Race in 2021?",
+            "link": "https://www.nasdaq.com/articles/who-led-the-patent-race-in-2021",
+            "description": "Here’s an overview of the patent landscape in 2021 with rankings based on the data by IFI Claims Patent Service.",
+            "pubDate": "Wed, 12 Jan 2022 14:47:03 +0000",
+            "guid": "https://www.nasdaq.com/articles/who-led-the-patent-race-in-2021?time=1641998870",
+            "creator": "Prableen Bajpai",
+            "category": "Technology,Companies,Innovation",
+            "tickers": "IBM,SSNLF,CAJ,TSM,INTC"
+          },
+          {
+            "title": "Inside Samsung Asset Management’s Metaverse Play",
+            "link": "https://www.nasdaq.com/articles/inside-samsung-asset-managements-metaverse-play",
+            "description": "As a pioneer in the market, Samsung Asset Management introduced the first actively managed local metaverse-themed ETF in November 2021. Now, it has followed up with the launch of the first ETF that tracks U.S.-listed and U.S.-domiciled companies involved in the metaverse theme.",
+            "pubDate": "Wed, 29 Dec 2021 15:29:04 +0000",
+            "guid": "https://www.nasdaq.com/articles/inside-samsung-asset-managements-metaverse-play?time=1642532290",
+            "creator": "MarketInsite",
+            "category": "ETFs,How to Invest,Index Research,Indexes,Innovation"
+          },
+          {
+            "title": "Want to Disrupt Your Industry?  Start with a Culture of Innovation",
+            "link": "https://www.nasdaq.com/articles/want-to-disrupt-your-industry-start-with-a-culture-of-innovation",
+            "description": "We love stories of disruption. It’s the scrappy newcomer appearing to unseat the big incumbent player, and we all like to cheer for an underdog. But disruption isn't necessarily about fighting harder or beating them at their own game. Disruption is about opportunity.",
+            "pubDate": "Mon, 20 Dec 2021 16:23:55 +0000",
+            "guid": "https://www.nasdaq.com/articles/want-to-disrupt-your-industry-start-with-a-culture-of-innovation?time=1640017547",
+            "creator": "Guest Contributors",
+            "category": "Innovation,Entrepreneurs"
+          },
+          {
+            "title": "How Amplitude’s Transformative Tech Makes It Easy for Companies to Drive Success",
+            "link": "https://www.nasdaq.com/articles/how-amplitudes-transformative-tech-makes-it-easy-for-companies-to-drive-success",
+            "description": "As a top-ranked product analytics solution, Amplitude is on a mission to make analytics easy to understand with effective tools to help companies drive success on their digital platforms.",
+            "pubDate": "Mon, 13 Dec 2021 14:57:38 +0000",
+            "guid": "https://www.nasdaq.com/articles/how-amplitudes-transformative-tech-makes-it-easy-for-companies-to-drive-success?time=1639413294",
+            "creator": "MarketInsite",
+            "category": "Nasdaq-Listed Companies,Public Companies,Technology,Innovation"
+          },
+          {
+            "title": "Rivian Raises $12 Billion in Record-breaking IPO",
+            "link": "https://www.nasdaq.com/articles/rivian-raises-%2412-billion-in-record-breaking-ipo",
+            "description": "On Wednesday, Rivian (RIVN), an innovative automotive technology company, listed on Nasdaq, raising $12 billion and setting the record for the largest initial public offering (IPO) in the United States in 2021 and the 7th largest IPO in the U.S. to date.",
+            "pubDate": "Thu, 11 Nov 2021 14:10:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/rivian-raises-%2412-billion-in-record-breaking-ipo?time=1642049386",
+            "creator": "MarketInsite",
+            "category": "IPOs,Nasdaq-Listed Companies,Public Companies,Innovation,Sustainability",
+            "tickers": "RIVN"
+          },
+          {
+            "title": "Why Customer-Led Innovation is the Future of Business",
+            "link": "https://www.nasdaq.com/articles/why-customer-led-innovation-is-the-future-of-business-2021-10-29",
+            "description": "There was a time when companies would stick around for decades. They had a great product, steady revenue, brand recognition and growth — a great Fortune 500 candidate.",
+            "pubDate": "Fri, 29 Oct 2021 18:56:16 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-customer-led-innovation-is-the-future-of-business-2021-10-29?time=1635534282",
+            "creator": "Guest Contributors",
+            "category": "Innovation"
+          },
+          {
+            "title": "Why Investors Need to Pay Attention to the At-Home Diagnostics Market",
+            "link": "https://www.nasdaq.com/articles/why-investors-need-to-pay-attention-to-the-at-home-diagnostics-market-2021-10-28",
+            "description": "The past few years have certainly emphasized the importance of health, both mental and physical, and on the diverse attitudes and economics of healthcare around the world.",
+            "pubDate": "Thu, 28 Oct 2021 17:24:49 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-investors-need-to-pay-attention-to-the-at-home-diagnostics-market-2021-10-28?time=1635441873",
+            "creator": "Chris Versace",
+            "category": "World Reimagined,Technology,Coronavirus,Innovation",
+            "tickers": "TDOC,EXAS,ABT,IGAP,ME"
+          },
+          {
+            "title": "From a Dorm Room to a Virtual IPO: How ZoomInfo Went Public Amid a Pandemic",
+            "link": "https://www.nasdaq.com/articles/from-a-dorm-room-to-a-virtual-ipo%3A-how-zoominfo-went-public-amid-a-pandemic-2021-10-27",
+            "description": "Even amid a global pandemic, ZoomInfo, saw the opportunity to go public, and its IPO in June of 2020 “cracked open the IPO market,” according to Jeff Thomas, head of Western U.S. Listings and Capital Markets at Nasdaq.",
+            "pubDate": "Wed, 27 Oct 2021 13:30:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/from-a-dorm-room-to-a-virtual-ipo%3A-how-zoominfo-went-public-amid-a-pandemic-2021-10-27?time=1635341448",
+            "creator": "MarketInsite",
+            "category": "IPOs,Entrepreneurs,Innovation,Technology,Nasdaq-Listed Companies",
+            "tickers": "ZI"
+          },
+          {
+            "title": "Valkyrie Lists Bitcoin Futures ETF on Nasdaq",
+            "link": "https://www.nasdaq.com/articles/valkyrie-lists-bitcoin-futures-etf-on-nasdaq-2021-10-22",
+            "description": "Valkyrie Funds has become the first asset manager to create a bitcoin futures exchange-traded fund (ETF) on the Nasdaq Exchange, listing the Valkyrie Bitcoin Strategy Fund (BTF) on Friday, Oct. 22.",
+            "pubDate": "Fri, 22 Oct 2021 14:05:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/valkyrie-lists-bitcoin-futures-etf-on-nasdaq-2021-10-22?time=1634911502",
+            "creator": "MarketInsite",
+            "category": "ETFs,Bitcoin,Cryptocurrencies,Innovation,Markets"
+          },
+          {
+            "title": "Why Innovative Companies Need IP-Moats",
+            "link": "https://www.nasdaq.com/articles/why-innovative-companies-need-ip-moats-2021-10-19",
+            "description": "We live in an era where the economy is driven by innovation. Companies are continuously iterating on ideas and building innovative products and services. While growing market share is every company's primary focus, gaining competitive advantage through IP-Moat is also critical.",
+            "pubDate": "Tue, 19 Oct 2021 16:25:11 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-innovative-companies-need-ip-moats-2021-10-19?time=1634660726",
+            "creator": "Guest Contributors",
+            "category": "Technology,Companies,Innovation"
+          },
+          {
+            "title": "World Reimagined: The Future of Data Privacy",
+            "link": "https://www.nasdaq.com/articles/world-reimagined%3A-the-future-of-data-privacy-2021-10-15",
+            "description": "More connected devices mean greater threats to personal data privacy and more opportunities for information to be compromised",
+            "pubDate": "Fri, 15 Oct 2021 17:21:59 +0000",
+            "guid": "https://www.nasdaq.com/articles/world-reimagined%3A-the-future-of-data-privacy-2021-10-15?time=1634318475",
+            "creator": "Chris Versace",
+            "category": "World Reimagined,Technology,Cybersecurity,Innovation",
+            "tickers": "IBM"
+          },
+          {
+            "title": "Adena Friedman Named to Fortune’s 2021 List of Most Powerful Women",
+            "link": "https://www.nasdaq.com/articles/adena-friedman-named-to-fortunes-2021-list-of-most-powerful-women-2021-10-04",
+            "description": "For the first time, Nasdaq President and Chief Executive Officer Adena Friedman was named to Fortune’s list of the Most Powerful Women in recognition of her leadership during a transformative and challenging year.",
+            "pubDate": "Mon, 04 Oct 2021 20:05:28 +0000",
+            "guid": "https://www.nasdaq.com/articles/adena-friedman-named-to-fortunes-2021-list-of-most-powerful-women-2021-10-04?time=1633377913",
+            "creator": "MarketInsite",
+            "category": "Leadership,Diversity &amp; Inclusion,Culture,Innovation,Markets"
+          },
+          {
+            "title": "Innovating Sports Betting with Capital Markets Surveillance Technology",
+            "link": "https://www.nasdaq.com/articles/innovating-sports-betting-with-capital-markets-surveillance-technology-2021-09-14",
+            "description": "Sporttrade and Nasdaq recently announced a new technology partnership, through which Sporttrade will leverage market surveillance technology from Nasdaq. We sat down with Alex Kane, Founder and CEO of Sporttrade, to hear more about the vision behind Sporttrade.",
+            "pubDate": "Tue, 14 Sep 2021 18:40:00 +0000",
+            "guid": "https://www.nasdaq.com/articles/innovating-sports-betting-with-capital-markets-surveillance-technology-2021-09-14?time=1631644818",
+            "creator": "MarketInsite",
+            "category": "Market Surveillance,Innovation,Technology,World Markets"
+          },
+          {
+            "title": "Building the Partner-Centric Roadmap: Innovating for Partner Success",
+            "link": "https://www.nasdaq.com/articles/building-the-partner-centric-roadmap%3A-innovating-for-partner-success-2021-08-18",
+            "description": "Innovation. Ingenuity. Transformation. If you’re a software provider, you are likely familiar with these terms as well the aspirational, and assumed massive change, that often accompanies them. But innovation doesn’t always have to be a heavy lift",
+            "pubDate": "Wed, 18 Aug 2021 18:35:35 +0000",
+            "guid": "https://www.nasdaq.com/articles/building-the-partner-centric-roadmap%3A-innovating-for-partner-success-2021-08-18?time=1629314380",
+            "creator": "Guest Contributors",
+            "category": "Innovation"
+          },
+          {
+            "title": "Australia's Whitehaven Coal cuts output forecast on bad weather",
+            "link": "https://www.nasdaq.com/articles/australias-whitehaven-coal-cuts-output-forecast-on-bad-weather",
+            "description": "Whitehaven Coal Ltd on Friday cut its coal production forecast for 2022 after bad weather hit its flagship Maules Creek operation, forcing Australia's biggest independent coal miner to report a 23% slump in second-quarter output.",
+            "pubDate": "Thu, 20 Jan 2022 22:17:47 +0000",
+            "guid": "https://www.nasdaq.com/articles/australias-whitehaven-coal-cuts-output-forecast-on-bad-weather?time=1642717986",
+            "creator": "Reuters",
+            "category": "",
+            "partnerlink": [
+              "South32, Alcoa to restart Alumar aluminium smelter in Brazil",
+              "Australian coal miner New Hope CEO Schmidt resigns"
+            ]
+          },
+          {
+            "title": "U.S. charges Belarus officials with aircraft piracy over diverted Ryanair flight",
+            "link": "https://www.nasdaq.com/articles/u.s.-charges-belarus-officials-with-aircraft-piracy-over-diverted-ryanair-flight",
+            "description": "The U.S. Department of Justice said on Thursday it has charged four Belarusian government officials with aircraft piracy for diverting a Ryanair flight last May to arrest a dissident Belarusian journalist who was on board.",
+            "pubDate": "Thu, 20 Jan 2022 22:15:52 +0000",
+            "guid": "https://www.nasdaq.com/articles/u.s.-charges-belarus-officials-with-aircraft-piracy-over-diverted-ryanair-flight?time=1642717986",
+            "creator": "Reuters",
+            "category": "Commodities,US Markets",
+            "partnerlink": [
+              "Ryanair expects higher Europe fares in the sector this summer",
+              "Ryanair has 'sea change' in confidence as Omicron threat eases"
+            ]
+          },
+          {
+            "title": "Mexico's Banorte posts jump in quarterly net profit; expects 2022 growth",
+            "link": "https://www.nasdaq.com/articles/mexicos-banorte-posts-jump-in-quarterly-net-profit-expects-2022-growth",
+            "description": "Mexico's Grupo Financiero Banorte on Thursday said it expected to boost its net income in 2022 by as much as 17.3%, and posted higher net income and revenue in the fourth quarter of 2021 compared with the year-ago period.",
+            "pubDate": "Thu, 20 Jan 2022 22:13:42 +0000",
+            "guid": "https://www.nasdaq.com/articles/mexicos-banorte-posts-jump-in-quarterly-net-profit-expects-2022-growth?time=1642717986",
+            "creator": "Reuters",
+            "category": "US Markets"
+          },
+          {
+            "title": "See Which Of The Latest 13F Filers Holds Abbott Laboratories",
+            "link": "https://www.nasdaq.com/articles/see-which-of-the-latest-13f-filers-holds-abbott-laboratories",
+            "description": "At Holdings Channel, we have reviewed the latest batch of the 20 most recent 13F filings for the 12/31/2021 reporting period, and noticed that Abbott Laboratories (Symbol: ABT) was held by 12 of these funds.  When hedge fund managers appear to be thinking alike, we find it is a g",
+            "pubDate": "Thu, 20 Jan 2022 22:13:20 +0000",
+            "guid": "https://www.nasdaq.com/articles/see-which-of-the-latest-13f-filers-holds-abbott-laboratories?time=1642716902",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Low Priced Dividend Stocks",
+              "SLB Historical Earnings",
+              "ABDC market cap history"
+            ]
+          },
+          {
+            "title": "Why Shares of Adagio Therapeutics Soared 25.9% on Thursday",
+            "link": "https://www.nasdaq.com/articles/why-shares-of-adagio-therapeutics-soared-25.9-on-thursday",
+            "description": "What happened\nShares of Adagio Therapeutics (NASDAQ: ADGI) jumped 25.9% on Thursday. The stock closed at $5.55 a share on Wednesday, opened at $5.62 on Thursday, and hit a midday high of $6.99 before closing at $6.44.",
+            "pubDate": "Thu, 20 Jan 2022 22:05:25 +0000",
+            "guid": "https://www.nasdaq.com/articles/why-shares-of-adagio-therapeutics-soared-25.9-on-thursday?time=1642716301",
+            "creator": "The Motley Fool",
+            "category": "Markets",
+            "tickers": "ADGI,ADGI"
+          },
+          {
+            "title": "ENTG Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/entg-crosses-below-key-moving-average-level",
+            "description": "In trading on Thursday, shares of Entegris Inc (Symbol: ENTG) crossed below their 200 day moving average of $125.73, changing hands as low as $123.72 per share.  Entegris Inc shares are currently trading down about 2.7% on the day.  The chart below shows the one year performanc",
+            "pubDate": "Thu, 20 Jan 2022 22:03:32 +0000",
+            "guid": "https://www.nasdaq.com/articles/entg-crosses-below-key-moving-average-level?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Top Stocks Held By Ken Griffin",
+              "MGPI Dividend Growth Rate",
+              "PETZ shares outstanding history"
+            ]
+          },
+          {
+            "title": "DIOD Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/diod-crosses-below-key-moving-average-level",
+            "description": "In trading on Thursday, shares of Diodes, Inc. (Symbol: DIOD) crossed below their 200 day moving average of $89.42, changing hands as low as $88.48 per share.  Diodes, Inc. shares are currently trading off about 2.1% on the day.  The chart below shows the one year performance o",
+            "pubDate": "Thu, 20 Jan 2022 22:02:03 +0000",
+            "guid": "https://www.nasdaq.com/articles/diod-crosses-below-key-moving-average-level?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Selling Calls For Income",
+              "MA Insider Buying",
+              "Funds Holding JAXB"
+            ]
+          },
+          {
+            "title": "XRX Makes Notable Cross Below Critical Moving Average",
+            "link": "https://www.nasdaq.com/articles/xrx-makes-notable-cross-below-critical-moving-average",
+            "description": "In trading on Thursday, shares of Xerox Holdings Corp (Symbol: XRX) crossed below their 200 day moving average of $22.42, changing hands as low as $22.38 per share.  Xerox Holdings Corp shares are currently trading down about 1.8% on the day.  The chart below shows the one year",
+            "pubDate": "Thu, 20 Jan 2022 22:01:25 +0000",
+            "guid": "https://www.nasdaq.com/articles/xrx-makes-notable-cross-below-critical-moving-average?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Cheap Smallcap Stocks",
+              "Funds Holding BIZD",
+              "BFC Stock Predictions"
+            ]
+          },
+          {
+            "title": "Applied Materials (AMAT) Shares Cross Below 200 DMA",
+            "link": "https://www.nasdaq.com/articles/applied-materials-amat-shares-cross-below-200-dma",
+            "description": "In trading on Thursday, shares of Applied Materials, Inc. (Symbol: AMAT) crossed below their 200 day moving average of $139.25, changing hands as low as $138.56 per share.  Applied Materials, Inc. shares are currently trading down about 2.7% on the day.  The chart below shows t",
+            "pubDate": "Thu, 20 Jan 2022 22:01:23 +0000",
+            "guid": "https://www.nasdaq.com/articles/applied-materials-amat-shares-cross-below-200-dma?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Preferred Stock Ex-Dividend Calendar",
+              "IID shares outstanding history",
+              "CFFI Insider Buying"
+            ]
+          },
+          {
+            "title": "Littelfuse (LFUS) Shares Cross Below 200 DMA",
+            "link": "https://www.nasdaq.com/articles/littelfuse-lfus-shares-cross-below-200-dma",
+            "description": "In trading on Thursday, shares of Littelfuse Inc (Symbol: LFUS) crossed below their 200 day moving average of $278.49, changing hands as low as $276.80 per share.  Littelfuse Inc shares are currently trading down about 3.1% on the day.  The chart below shows the one year perfor",
+            "pubDate": "Thu, 20 Jan 2022 22:00:44 +0000",
+            "guid": "https://www.nasdaq.com/articles/littelfuse-lfus-shares-cross-below-200-dma?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "DRIP Returns Calculator",
+              "NGD Options Chain",
+              "Funds Holding CCV"
+            ]
+          },
+          {
+            "title": "Amerant Bancorp Inc (AMTB) Q4 2021 Earnings Call Transcript",
+            "link": "https://www.nasdaq.com/articles/amerant-bancorp-inc-amtb-q4-2021-earnings-call-transcript",
+            "description": "Image source: The Motley Fool.",
+            "pubDate": "Thu, 20 Jan 2022 22:00:35 +0000",
+            "guid": "https://www.nasdaq.com/articles/amerant-bancorp-inc-amtb-q4-2021-earnings-call-transcript?time=1642716301",
+            "creator": "The Motley Fool",
+            "category": "Markets",
+            "tickers": "AMTB,AMTB"
+          },
+          {
+            "title": "SFNC Crosses Below Key Moving Average Level",
+            "link": "https://www.nasdaq.com/articles/sfnc-crosses-below-key-moving-average-level",
+            "description": "In trading on Thursday, shares of Simmons First National Corp (Symbol: SFNC) crossed below their 200 day moving average of $29.59, changing hands as low as $29.38 per share.  Simmons First National Corp shares are currently trading down about 2.9% on the day.  The chart below s",
+            "pubDate": "Thu, 20 Jan 2022 22:00:33 +0000",
+            "guid": "https://www.nasdaq.com/articles/sfnc-crosses-below-key-moving-average-level?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Past Earnings",
+              "PKOH Next Dividend Date",
+              "OFG Options Chain"
+            ]
+          },
+          {
+            "title": "Fifth Third Bancorp (FITB) Q4 2021 Earnings Call Transcript",
+            "link": "https://www.nasdaq.com/articles/fifth-third-bancorp-fitb-q4-2021-earnings-call-transcript",
+            "description": "Image source: The Motley Fool.",
+            "pubDate": "Thu, 20 Jan 2022 22:00:32 +0000",
+            "guid": "https://www.nasdaq.com/articles/fifth-third-bancorp-fitb-q4-2021-earnings-call-transcript?time=1642716301",
+            "creator": "The Motley Fool",
+            "category": "Markets",
+            "tickers": "FITB,FITB"
+          },
+          {
+            "title": "H.B. Fuller (FUL) Q4 2021 Earnings Call Transcript",
+            "link": "https://www.nasdaq.com/articles/h.b.-fuller-ful-q4-2021-earnings-call-transcript",
+            "description": "Image source: The Motley Fool.",
+            "pubDate": "Thu, 20 Jan 2022 22:00:29 +0000",
+            "guid": "https://www.nasdaq.com/articles/h.b.-fuller-ful-q4-2021-earnings-call-transcript?time=1642716301",
+            "creator": "The Motley Fool",
+            "category": "Markets",
+            "tickers": "FUL,FUL"
+          },
+          {
+            "title": "Lam Research Breaks Below 200-Day Moving Average - Notable for LRCX",
+            "link": "https://www.nasdaq.com/articles/lam-research-breaks-below-200-day-moving-average-notable-for-lrcx",
+            "description": "In trading on Thursday, shares of Lam Research Corp (Symbol: LRCX) crossed below their 200 day moving average of $625.65, changing hands as low as $617.52 per share.  Lam Research Corp shares are currently trading off about 3.6% on the day.  The chart below shows the one year p",
+            "pubDate": "Thu, 20 Jan 2022 22:00:26 +0000",
+            "guid": "https://www.nasdaq.com/articles/lam-research-breaks-below-200-day-moving-average-notable-for-lrcx?time=1642716301",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks",
+            "partnerlink": [
+              "Monthly Dividend Paying Stocks",
+              "CC Price Target",
+              "MACA YTD Return"
+            ]
+          },
+          {
+            "title": "Unusual Options Activity in Barclays (BCS), Banco De Chile (BCH), and General Motors (GM)",
+            "link": "https://www.nasdaq.com/articles/unusual-options-activity-in-barclays-bcs-banco-de-chile-bch-and-general-motors-gm",
+            "description": "Today, January 20, 2022, among the underlying components of the NYSE, we saw unusual or noteworthy options trading volume and activity in Barclays (BCS), which opened at $11.33.",
+            "pubDate": "Thu, 20 Jan 2022 16:41:26 +0000",
+            "guid": "https://www.nasdaq.com/articles/unusual-options-activity-in-barclays-bcs-banco-de-chile-bch-and-general-motors-gm?time=1642696913",
+            "creator": "Unusual Whales",
+            "category": "Options,Companies",
+            "tickers": "BCS,BCH,GM"
+          },
+          {
+            "title": "Notable Wednesday Option Activity: F, CHTR, SEDG",
+            "link": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-f-chtr-sedg",
+            "description": "Looking at options trading activity among components of the S&amp;P 500 index, there is noteworthy activity today in Ford Motor Co. (Symbol: F), where a total volume of 712,945 contracts has been traded thus far today, a contract volume which is representative of approximately",
+            "pubDate": "Wed, 19 Jan 2022 21:36:33 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-f-chtr-sedg?time=1642629001",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "F,CHTR,SEDG",
+            "partnerlink": [
+              "Preferreds of SAFE Dividend Stocks",
+              "Top Ten Hedge Funds Holding ASXC",
+              "Institutional Holders of APMI"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: PG, QCOM, NEM",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-pg-qcom-nem",
+            "description": "Looking at options trading activity among components of the S&amp;P 500 index, there is noteworthy activity today in Procter &amp; Gamble Company (Symbol: PG), where a total volume of 66,218 contracts has been traded thus far today, a contract volume which is representative of",
+            "pubDate": "Wed, 19 Jan 2022 21:36:29 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-pg-qcom-nem?time=1642629001",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "PG,QCOM,NEM",
+            "partnerlink": [
+              "Future Dividend Aristocrats",
+              "HAFC Past Earnings",
+              "GLUU market cap history"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: GS, BKNG, MRNA",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-gs-bkng-mrna",
+            "description": "Among the underlying components of the S&amp;P 500 index, we saw noteworthy options trading volume today in Goldman Sachs Group Inc (Symbol: GS), where a total of 54,947 contracts have traded so far, representing approximately 5.5 million underlying shares.  That amounts to abo",
+            "pubDate": "Wed, 19 Jan 2022 21:36:23 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-gs-bkng-mrna?time=1642629001",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "GS,BKNG,MRNA",
+            "partnerlink": [
+              "Real Estate Dividend Stocks",
+              "Institutional Holders of WCIC",
+              "Institutional Holders of DGS"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: TSN, USB, INTC",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-tsn-usb-intc",
+            "description": "Looking at options trading activity among components of the S&amp;P 500 index, there is noteworthy activity today in Tyson Foods Inc (Symbol: TSN), where a total volume of 7,946 contracts has been traded thus far today, a contract volume which is representative of approximately",
+            "pubDate": "Wed, 19 Jan 2022 21:36:09 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-tsn-usb-intc?time=1642629001",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "TSN,USB,INTC",
+            "partnerlink": [
+              "Earnings Calendar",
+              "TIF shares outstanding history",
+              "SNOA Insider Buying"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: FIVE, UNP, NKTR",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-five-unp-nktr",
+            "description": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in Five Below Inc (Symbol: FIVE), where a total of 3,620 contracts have traded so far, representing approximately 362,000 underlying shares.  That amounts to about 50.2% of",
+            "pubDate": "Wed, 19 Jan 2022 21:31:37 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-five-unp-nktr?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "FIVE,UNP,NKTR",
+            "partnerlink": [
+              "Technology Stocks Hedge Funds Are Selling",
+              "WZR Historical Stock Prices",
+              "TAP Technical Analysis"
+            ]
+          },
+          {
+            "title": "Notable Wednesday Option Activity: TXRH, MCD, QS",
+            "link": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-txrh-mcd-qs",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Texas Roadhouse Inc (Symbol: TXRH), where a total volume of 2,971 contracts has been traded thus far today, a contract volume which is representative of approxi",
+            "pubDate": "Wed, 19 Jan 2022 21:31:36 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-txrh-mcd-qs?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "TXRH,MCD,QS",
+            "partnerlink": [
+              "Cheap Consumer Shares",
+              "LADR market cap history",
+              "ETFs Holding FGEN"
+            ]
+          },
+          {
+            "title": "Notable Wednesday Option Activity: WAB, NOW, UIS",
+            "link": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-wab-now-uis",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Wabtec Corp (Symbol: WAB), where a total volume of 4,102 contracts has been traded thus far today, a contract volume which is representative of approximately 41",
+            "pubDate": "Wed, 19 Jan 2022 21:31:16 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-wab-now-uis?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "WAB,NOW,UIS",
+            "partnerlink": [
+              "IPOs",
+              "D.R. Horton Historical PE Ratio",
+              "Top Ten Hedge Funds Holding KBWY"
+            ]
+          },
+          {
+            "title": "Notable Wednesday Option Activity: CRWD, TEN, GILD",
+            "link": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-crwd-ten-gild",
+            "description": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in CrowdStrike Holdings Inc (Symbol: CRWD), where a total of 24,921 contracts have traded so far, representing approximately 2.5 million underlying shares.  That amounts to",
+            "pubDate": "Wed, 19 Jan 2022 21:31:14 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-crwd-ten-gild?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "CRWD,TEN,GILD",
+            "partnerlink": [
+              "Largest Discount Preferreds",
+              "Institutional Holders of BNK",
+              "OGI shares outstanding history"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: QTWO, DIS, SSTK",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-qtwo-dis-sstk",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Q2 Holdings Inc (Symbol: QTWO), where a total volume of 4,620 contracts has been traded thus far today, a contract volume which is representative of approximate",
+            "pubDate": "Wed, 19 Jan 2022 21:31:13 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-qtwo-dis-sstk?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "QTWO,DIS,SSTK",
+            "partnerlink": [
+              "ETF Finder",
+              "SBEA market cap history",
+              "CARE YTD Return"
+            ]
+          },
+          {
+            "title": "Notable Wednesday Option Activity: IGT, AMAT, PANW",
+            "link": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-igt-amat-panw",
+            "description": "Among the underlying components of the Russell 3000 index, we saw noteworthy options trading volume today in International Game Technology PLC (Symbol: IGT), where a total of 10,727 contracts have traded so far, representing approximately 1.1 million underlying shares.  That am",
+            "pubDate": "Wed, 19 Jan 2022 21:31:10 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-igt-amat-panw?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "IGT,AMAT,PANW",
+            "partnerlink": [
+              "Preferred Stock Ex-Dividend Calendar",
+              "Funds Holding FOF",
+              "BAR Historical Stock Prices"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: DOCN, DFS, AOUT",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-docn-dfs-aout",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in DigitalOcean Holdings Inc (Symbol: DOCN), where a total volume of 11,245 contracts has been traded thus far today, a contract volume which is representative of",
+            "pubDate": "Wed, 19 Jan 2022 21:31:08 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-docn-dfs-aout?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "DOCN,DFS,AOUT",
+            "partnerlink": [
+              "Earnings Surprises",
+              "Top Ten Hedge Funds Holding SPBO",
+              "Funds Holding KVSC"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: ELF, CBRE, ALGM",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-elf-cbre-algm",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in e.l.f. Beauty Inc (Symbol: ELF), where a total volume of 2,272 contracts has been traded thus far today, a contract volume which is representative of approximat",
+            "pubDate": "Wed, 19 Jan 2022 21:31:06 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-elf-cbre-algm?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "ELF,CBRE,ALGM",
+            "partnerlink": [
+              "Best Value Stocks",
+              "HBK Historical Stock Prices",
+              "CBON shares outstanding history"
+            ]
+          },
+          {
+            "title": "Noteworthy Wednesday Option Activity: WYNN, QGEN, APA",
+            "link": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-wynn-qgen-apa",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Wynn Resorts Ltd (Symbol: WYNN), where a total volume of 36,033 contracts has been traded thus far today, a contract volume which is representative of approxima",
+            "pubDate": "Wed, 19 Jan 2022 21:31:05 +0000",
+            "guid": "https://www.nasdaq.com/articles/noteworthy-wednesday-option-activity%3A-wynn-qgen-apa?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "WYNN,QGEN,APA",
+            "partnerlink": [
+              "Top Stocks Held By Warren Buffett",
+              "Institutional Holders of FHK",
+              "EDU YTD Return"
+            ]
+          },
+          {
+            "title": "Notable Wednesday Option Activity: RGLD, PPC, CLF",
+            "link": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-rgld-ppc-clf",
+            "description": "Looking at options trading activity among components of the Russell 3000 index, there is noteworthy activity today in Royal Gold Inc (Symbol: RGLD), where a total volume of 4,364 contracts has been traded thus far today, a contract volume which is representative of approximatel",
+            "pubDate": "Wed, 19 Jan 2022 21:31:04 +0000",
+            "guid": "https://www.nasdaq.com/articles/notable-wednesday-option-activity%3A-rgld-ppc-clf?time=1642628101",
+            "creator": "BNK Invest",
+            "category": "Markets,Stocks,Options",
+            "tickers": "RGLD,PPC,CLF",
+            "partnerlink": [
+              "Cheap Smallcap Stocks",
+              "PRTY Options Chain",
+              "SHEN Price Target"
+            ]
+          }
+          
+        ]
+      }
+    }
+  }
