@@ -67,7 +67,7 @@ $.ajax({
             if(index+5 > item.length){
                 index = 0
             }
-        }, 5000);
+        }, 3000);
         var parseData = getData2(item)
         var printData = $('  <h4 class="display-06">'+ parseData.title+'</h4> <p class="lead display-10">'+parseData.des+'</p> <a href="'+ parseData.link+'" type="button" class="btn btn-outline-light">Read More</a> <div class="my-3 d-flex justify-content-between"> <a id="prev2" class="pointer previous round">&#8249;</a><a href="next" class="pointer next round">&#8250;</a></div>')
         var cat = $('<cite class="text-secondary">Category: '+ parseData.category+'</cite>')
@@ -86,7 +86,7 @@ $.ajax({
             if(index2+5 > item.length){
                 index2 = 1
             }
-        }, 6000);
+        }, 4000);
         var parseData = getData3(item)
         var printData = $('  <h4 class="display-06">'+ parseData.title+'</h4> <p class="lead display-10">'+parseData.des+'</p> <a href="'+ parseData.link+'" type="button" class="btn btn-outline-secondary">Read More</a> <div class="my-3 d-flex justify-content-between"> <a id="prev3" class="pointer previousb round">&#8249;</a><a href="next" class="pointer nextb round">&#8250;</a></div>')
         var cat = $('<cite class="text-secondary">Category: '+ parseData.category+'</cite>')
@@ -105,7 +105,7 @@ $.ajax({
             if(index3+5 > item.length){
                 index3 = 2
             }
-        }, 6000);
+        }, 3000);
         var parseData = getData4(item)
         var printData = $('  <h4 class="display-06">'+ parseData.title+'</h4> <p class="lead display-10">'+parseData.des+'</p> <a href="'+ parseData.link+'" type="button" class="btn btn-outline-secondary">Read More</a> <div class="my-3 d-flex justify-content-between"> <a id="prev4" class="pointer previousb round">&#8249;</a><a href="next" class="pointer nextb round">&#8250;</a></div>')
         var cat = $('<cite class="text-secondary">Category: '+ parseData.category+'</cite>')
@@ -124,7 +124,7 @@ $.ajax({
             if(index4+5 > item.length){
                 index4 = 3
             }
-        }, 5000);
+        }, 4000);
         var parseData = getData5(item)
         var printData = $('  <h4 class="display-06">'+ parseData.title+'</h4> <p class="lead display-10">'+parseData.des+'</p> <a href="'+ parseData.link+'" type="button" class="btn btn-outline-light">Read More</a> <div class="my-3 d-flex justify-content-between"> <a id="prev5" class="pointer previous round">&#8249;</a><a href="next" class="pointer next round">&#8250;</a></div>')
         var cat = $('<cite class="text-secondary">Category: '+ parseData.category+'</cite>')
@@ -143,7 +143,7 @@ $.ajax({
             if(index5+5 > item.length){
                 index5 = 4
             }
-        }, 5000);
+        }, 3000);
         
     },
     error: function(jqXHR, textStatus, errorThrown){
