@@ -537,6 +537,7 @@ function display(data) {
   const humanDate = date.toLocaleString("en-US").slice(0, -12);
   var iconcode = data.weather[0].icon;
   var iconurl = "http://openweathermap.org/img/w/" + iconcode + ".png";
+  console.log(iconurl);
   const des = data.weather[0].description.toUpperCase();
   document.getElementById("city").innerHTML = "LOCATION: " + name;
   document.getElementById("temp").innerHTML =
