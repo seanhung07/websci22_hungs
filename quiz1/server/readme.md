@@ -1,0 +1,1 @@
+I add a background image and make a card to display all the information.
