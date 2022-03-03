@@ -1,1 +1,1 @@
-cd ..
+The the only problem that I faced is getting data from http://127.0.0.1:3000/data, the subscribe way is not working. The way I solved my problem is using toPromise() to successfully display the data. Comapre to last lab3 I add a top navbar to let the user understand what is the website about. Additionally, I ask serveral friend that they sad displaying text will be more clear than the chartjs pie chart, therefore, I change it to the text.
