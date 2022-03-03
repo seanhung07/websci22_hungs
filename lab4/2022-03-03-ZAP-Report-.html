@@ -1,0 +1,1586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAP Scanning Report</title>
+<link
+	href="2022-03-03-ZAP-Report-/normalize/normalize.css" rel="stylesheet">
+<link
+	href="2022-03-03-ZAP-Report-/themes/original/main.css" rel="stylesheet">
+<link
+	href="2022-03-03-ZAP-Report-/themes/original/colors.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>ZAP Scanning Report</h1>
+		<p>
+			<span>Generated with</span> <a href="https://zaproxy.org"><img
+				src="2022-03-03-ZAP-Report-/zap32x32.png" alt="The ZAP logo" class="zap-logo">ZAP</a>
+			<span>on Thu 3 Mar 2022, at 16:44:10</span>
+		</p>
+	</header>
+
+	<main>
+
+		<section id="contents" class="contents">
+			<h2>Contents</h2>
+			<nav>
+				<ol>
+					<li><a
+						href="#about-this-report">About this report</a>
+						<ol>
+							
+							<li><a
+								href="#report-parameters">Report parameters</a></li>
+						</ol></li>
+					<data-th-block>
+					<li><a
+						href="#summaries">Summaries</a>
+						<ol>
+							<li><a
+								href="#risk-confidence-counts">Alert counts by risk and confidence</a></li>
+							<li><a
+								href="#site-risk-counts">Alert counts by site and risk</a></li>
+							<li><a
+								href="#alert-type-counts">Alert counts by alert type</a></li>
+						</ol></li>
+					<li><a
+						href="#alerts">Alerts</a>
+						<ol>
+							
+							 
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-2-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Medium</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(3)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-1-confidence-2"><span>Risk</span>=<span
+									class="risk-level">Low</span>, <span>Confidence</span>=<span
+									class="confidence-level">Medium</span> <span>(3)</span></a></li>
+							
+							
+							  
+							
+							
+							
+							
+							
+							
+							
+							
+							<li><a
+								href="#alerts--risk-0-confidence-1"><span>Risk</span>=<span
+									class="risk-level">Informational</span>, <span>Confidence</span>=<span
+									class="confidence-level">Low</span> <span>(1)</span></a></li>
+							  
+						</ol></li>
+					<li><a
+						href="#appendix">Appendix</a>
+						<ol>
+							<li><a
+								href="#alert-types">Alert types</a></li>
+						</ol></li>
+					</data-th-block>
+				</ol>
+			</nav>
+		</section>
+
+		<section
+			id="about-this-report" class="about-this-report">
+			<h2>About this report</h2>
+
+			
+
+			<section
+				id="report-parameters">
+				<h3>Report parameters</h3>
+				<div class="report-parameters--container">
+					<h4>Contexts</h4>
+					
+					
+					<p>No contexts were selected, so all contexts were included by default.</p>
+					  
+
+					<h4>Sites</h4>
+					
+					<p>The following sites were included:</p>
+					<ul class="sites-list">
+						<li><span class="site">http://127.0.0.1:3000</span></li>
+					</ul>
+					
+					<p>(If no sites were selected, all sites were included by default.)</p>
+					<p>An included site must also be within one of the included contexts for its data to be included in the report.</p>
+
+					<h4>Risk levels</h4>
+					<p>
+						<span>Included</span>:
+						 
+						<span class="included-risk-codes"><span class="risk-level">High</span>, <span class="risk-level">Medium</span>, <span class="risk-level">Low</span>, <span class="risk-level">Informational</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						 <span>None</span>
+						
+					</p>
+
+					<h4>Confidence levels</h4>
+					<p>
+						<span>Included</span>:
+						
+						
+						<span class="included-confidence-codes"><span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span></span>
+					</p>
+					<p>
+						<span>Excluded</span>:
+						
+						
+						<span class="included-confidence-codes"> <span class="confidence-level">User Confirmed</span>, <span class="confidence-level">High</span>, <span class="confidence-level">Medium</span>, <span class="confidence-level">Low</span>, <span class="confidence-level">False Positive</span></span>
+					</p>
+				</div>
+			</section>
+		</section>
+
+		
+		<section>
+			
+		</section>
+		
+		<section id="summaries" class="summaries">
+			<h2>Summaries</h2>
+
+			<section
+				id="risk-confidence-counts">
+				<h3>Alert counts by risk and confidence</h3>
+				<table class="risk-confidence-counts-table">
+					<caption>
+						<p>This table shows the number of alerts for each level of risk and confidence included in the report.</p>
+						<p>(The percentages in brackets represent the count as a percentage of the total number of alerts included in the report, rounded to one decimal place.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%"><col
+							style="width: 14.0%">
+						<col style="width: 14.0%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup"
+								colspan="5">Confidence</th>
+						</tr>
+						<tr>
+							<th scope="col">User Confirmed</th>
+							<th scope="col">High</th>
+							<th scope="col">Medium</th>
+							<th scope="col">Low</th>
+							<th scope="col">Total</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="5">Risk</th>
+							<th scope="row">High</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span class="additional-info-percentages">(0.0%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Medium</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(42.9%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(42.9%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Low</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(42.9%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>3</span><br> <span class="additional-info-percentages">(42.9%)</span></td>
+						</tr>
+						<tr>
+							
+							<th scope="row">Informational</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14.3%)</span></td>
+							<td><span>1</span><br> <span class="additional-info-percentages">(14.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row">Total</th>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0.0%)</span></td>
+							<td><span>6</span><br> <span
+								class="additional-info-percentages">(85.7%)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14.3%)</span></td>
+							<td><span>7</span><br> <span
+								class="additional-info-percentages">(100%)</span></td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="site-risk-counts">
+				<h3>Alert counts by site and risk</h3>
+				<table class="site-risk-counts-table">
+					<caption>
+						<p>This table shows, for each site for which one or more alerts were raised, the number of alerts raised at each risk level.</p>
+						<p>Alerts with a confidence level of &quot;False Positive&quot; have been excluded from these counts.</p>
+						<p>(The numbers in brackets are the number of alerts raised for the site at or above that risk level.)</p>
+					</caption>
+					<colgroup>
+						<col>
+						<col>
+					</colgroup>
+					<colgroup>
+						<col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%"><col
+							style="width: 16.25%">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="2" rowspan="2"></td>
+							<th scope="colgroup" colspan="4">Risk</th>
+						</tr>
+						<tr>
+							<th scope="col">
+								<span>High</span><br>  <span
+									class="additional-info-percentages">(= High)</span>  
+							</th>
+							<th scope="col">
+								<span>Medium</span><br>   <span
+									class="additional-info-percentages">(&gt;= Medium)</span> 
+							</th>
+							<th scope="col">
+								<span>Low</span><br>   <span
+									class="additional-info-percentages">(&gt;= Low)</span> 
+							</th>
+							<th scope="col">
+								<span>Informational</span><br>   <span
+									class="additional-info-percentages">(&gt;= Informational)</span> 
+							</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="rowgroup"
+								rowspan="1">Site</th>
+							<th scope="row">http://127.0.0.1:3000</th>
+							
+							<td><span>0</span><br> <span
+								class="additional-info-percentages">(0)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(3)</span></td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(6)</span></td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(7)</span></td>
+							
+						</tr>
+					</tbody>
+				</table>
+			</section>
+
+			<section
+				id="alert-type-counts">
+				<h3>Alert counts by alert type</h3>
+				<table class="alert-type-counts-table">
+					<caption>
+						<p>This table shows the number of alerts of each alert type, together with the alert type&#39;s risk level.</p>
+						<p>(The percentages in brackets represent each count as a percentage, rounded to one decimal place, of the total number of alerts included in this report.)</p>
+					</caption>
+					<thead>
+						<tr>
+							<th scope="col">Alert type</th>
+							<th scope="col">Risk</th>
+							<th scope="col">Count</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-0">CSP: Wildcard Directive</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28.6%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-1">Cross-Domain Misconfiguration</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>8</span><br> <span
+								class="additional-info-percentages">(114.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-2">Missing Anti-clickjacking Header</a></th>
+							<td class="risk-level">Medium</td>
+							<td><span>1</span><br> <span
+								class="additional-info-percentages">(14.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-3">Cross-Domain JavaScript Source File Inclusion</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>3</span><br> <span
+								class="additional-info-percentages">(42.9%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-4">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>8</span><br> <span
+								class="additional-info-percentages">(114.3%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-5">X-Content-Type-Options Header Missing</a></th>
+							<td class="risk-level">Low</td>
+							<td><span>5</span><br> <span
+								class="additional-info-percentages">(71.4%)</span></td>
+						</tr>
+						<tr>
+							<th scope="row"><a
+								href="#alert-type-6">Information Disclosure - Suspicious Comments</a></th>
+							<td class="risk-level">Informational</td>
+							<td><span>2</span><br> <span
+								class="additional-info-percentages">(28.6%)</span></td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<th scope="row">Total</th>
+							<td></td>
+							<td>7</td>
+						</tr>
+					</tfoot>
+				</table>
+			</section>
+		</section>
+
+		<section id="alerts" class="alerts">
+			<h2>Alerts</h2>
+			<ol>
+				
+				 
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-2-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Medium</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1:3000</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-0">CSP: Wildcard Directive</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000/robots.txt</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: </p>
+
+<p>frame-ancestors, form-action</p>
+
+<p>The directive(s): frame-ancestors, form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (206 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000/robots.txt HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (304 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src &#39;none&#39;
+X-Content-Type-Options: nosniff
+Content-Type: text/html; charset=utf-8
+Content-Length: 149
+Date: Thu, 03 Mar 2022 21:38:34 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (149 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Error&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;pre&gt;Cannot GET /robots.txt&lt;/pre&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>default-src &#39;none&#39;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is properly configured to set the Content-Security-Policy header.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-1">Cross-Domain Misconfiguration</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A5_2017-Broken_Access_Control.html">OWASP_2017_A05</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (195 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000 HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (349 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 03 Mar 2022 21:28:58 GMT
+ETag: W/&quot;59e-17f51afa055&quot;
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1438
+Date: Thu, 03 Mar 2022 21:38:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1438 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Lab4&lt;/title&gt;
+  &lt;base href=&quot;/&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;&gt;
+  &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3&quot; crossorigin=&quot;anonymous&quot;&gt;
+  &lt;script src=&quot;https://cdn.socket.io/4.4.1/socket.io.min.js&quot; integrity=&quot;sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+  &lt;script src=&quot;//cdn.jsdelivr.net/npm/sweetalert2@11&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.js&quot; integrity=&quot;sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.ef46db3751d8e999.css&quot;&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;app-root&gt;&lt;/app-root&gt;
+&lt;script src=&quot;runtime.03ee0479dca6e10e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;polyfills.a42588e795094b54.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.1def6c0b4fdfa41c.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>Access-Control-Allow-Origin: *</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that sensitive data is not available in an unauthenticated manner (using IP address white-listing, for instance).</p>
+
+<p>Configure the &quot;Access-Control-Allow-Origin&quot; HTTP header to a more restrictive set of domains, or remove all CORS headers entirely, to allow the web browser to enforce the Same Origin Policy (SOP) in a more restrictive manner.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-2">Missing Anti-clickjacking Header</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/11-Client-side_Testing/09-Testing_for_Clickjacking">WSTG-v42-CLNT-09</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response does not include either Content-Security-Policy with &#39;frame-ancestors&#39; directive or X-Frame-Options to protect against &#39;ClickJacking&#39; attacks.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (195 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000 HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (349 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 03 Mar 2022 21:28:58 GMT
+ETag: W/&quot;59e-17f51afa055&quot;
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1438
+Date: Thu, 03 Mar 2022 21:38:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1438 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Lab4&lt;/title&gt;
+  &lt;base href=&quot;/&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;&gt;
+  &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3&quot; crossorigin=&quot;anonymous&quot;&gt;
+  &lt;script src=&quot;https://cdn.socket.io/4.4.1/socket.io.min.js&quot; integrity=&quot;sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+  &lt;script src=&quot;//cdn.jsdelivr.net/npm/sweetalert2@11&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.js&quot; integrity=&quot;sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.ef46db3751d8e999.css&quot;&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;app-root&gt;&lt;/app-root&gt;
+&lt;script src=&quot;runtime.03ee0479dca6e10e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;polyfills.a42588e795094b54.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.1def6c0b4fdfa41c.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>X-Frame-Options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p>
+
+<p>If you expect the page to be framed only by pages on your server (e.g. it&#39;s part of a FRAMESET) then you&#39;ll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy&#39;s &quot;frame-ancestors&quot; directive.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				<li id="alerts--risk-1-confidence-2">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Low</span>, <span>Confidence</span>=<span
+							class="confidence-level">Medium</span> <span>(3)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1:3000</span> <span>(3)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-3">Cross-Domain JavaScript Source File Inclusion</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A08_2021-Software_and_Data_Integrity_Failures/">OWASP_2021_A08</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The page includes one or more script files from a third-party domain.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (195 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000 HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (349 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 03 Mar 2022 21:28:58 GMT
+ETag: W/&quot;59e-17f51afa055&quot;
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1438
+Date: Thu, 03 Mar 2022 21:38:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1438 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Lab4&lt;/title&gt;
+  &lt;base href=&quot;/&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;&gt;
+  &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3&quot; crossorigin=&quot;anonymous&quot;&gt;
+  &lt;script src=&quot;https://cdn.socket.io/4.4.1/socket.io.min.js&quot; integrity=&quot;sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+  &lt;script src=&quot;//cdn.jsdelivr.net/npm/sweetalert2@11&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.js&quot; integrity=&quot;sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.ef46db3751d8e999.css&quot;&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;app-root&gt;&lt;/app-root&gt;
+&lt;script src=&quot;runtime.03ee0479dca6e10e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;polyfills.a42588e795094b54.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.1def6c0b4fdfa41c.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js</code></pre></td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>&lt;script src=&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can&#39;t be controlled by end users of the application.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-4">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-web-security-testing-guide/v42/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework">WSTG-v42-INFO-08</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The web/application server is leaking information via one or more &quot;X-Powered-By&quot; HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
+ </td>
+	</tr>
+	
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (195 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000 HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (349 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 03 Mar 2022 21:28:58 GMT
+ETag: W/&quot;59e-17f51afa055&quot;
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1438
+Date: Thu, 03 Mar 2022 21:38:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1438 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Lab4&lt;/title&gt;
+  &lt;base href=&quot;/&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;&gt;
+  &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3&quot; crossorigin=&quot;anonymous&quot;&gt;
+  &lt;script src=&quot;https://cdn.socket.io/4.4.1/socket.io.min.js&quot; integrity=&quot;sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+  &lt;script src=&quot;//cdn.jsdelivr.net/npm/sweetalert2@11&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.js&quot; integrity=&quot;sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.ef46db3751d8e999.css&quot;&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;app-root&gt;&lt;/app-root&gt;
+&lt;script src=&quot;runtime.03ee0479dca6e10e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;polyfills.a42588e795094b54.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.1def6c0b4fdfa41c.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>X-Powered-By: Express</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that your web server, application server, load balancer, etc. is configured to suppress &quot;X-Powered-By&quot; headers.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-5">X-Content-Type-Options Header Missing</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">OWASP_2021_A05</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A6_2017-Security_Misconfiguration.html">OWASP_2017_A06</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to &#39;nosniff&#39;. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p>
+
+<p>At &quot;High&quot; threshold this scan rule will not alert on client or server error responses.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (195 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000 HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (349 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 03 Mar 2022 21:28:58 GMT
+ETag: W/&quot;59e-17f51afa055&quot;
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1438
+Date: Thu, 03 Mar 2022 21:38:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body" open="open">
+				<summary>Response body (1438 bytes)</summary>
+				
+				<pre><code>&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Lab4&lt;/title&gt;
+  &lt;base href=&quot;/&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  &lt;link rel=&quot;icon&quot; type=&quot;image/x-icon&quot; href=&quot;favicon.ico&quot;&gt;
+  &lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot; integrity=&quot;sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3&quot; crossorigin=&quot;anonymous&quot;&gt;
+  &lt;script src=&quot;https://cdn.socket.io/4.4.1/socket.io.min.js&quot; integrity=&quot;sha384-fKnu0iswBIqkjxrhQCTZ7qlLHOFEgNkRmK2vaO/LbTZSXdJfAu6ewRBdwHPhBo/H&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js&quot;&gt;&lt;/script&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css&quot;&gt;
+  &lt;script src=&quot;//cdn.jsdelivr.net/npm/sweetalert2@11&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js&quot;&gt;&lt;/script&gt;
+  &lt;script src=&quot;https://code.jquery.com/jquery-3.6.0.js&quot; integrity=&quot;sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;styles.ef46db3751d8e999.css&quot;&gt;&lt;/head&gt;
+&lt;body&gt;
+  &lt;app-root&gt;&lt;/app-root&gt;
+&lt;script src=&quot;runtime.03ee0479dca6e10e.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;polyfills.a42588e795094b54.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;&lt;script src=&quot;main.1def6c0b4fdfa41c.js&quot; type=&quot;module&quot;&gt;&lt;/script&gt;
+
+&lt;/body&gt;&lt;/html&gt;</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Parameter</th>
+		<td><pre><code>X-Content-Type-Options</code></pre></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to &#39;nosniff&#39; for all web pages.</p>
+
+<p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				
+				
+				  
+				 
+				
+				
+				
+				
+				
+				
+				<li id="alerts--risk-0-confidence-1">
+					<h3>
+						<span>Risk</span>=<span
+							class="risk-level">Informational</span>, <span>Confidence</span>=<span
+							class="confidence-level">Low</span> <span>(1)</span>
+					</h3>
+					<ol>
+						
+						<li class="alerts--site-li">
+							<h4>
+								<span class="site">http://127.0.0.1:3000</span> <span>(1)</span>
+							</h4>
+							<ol>
+								
+								<li>
+									<h5>
+										<a
+											href="#alert-type-6">Information Disclosure - Suspicious Comments</a> <span>(1)</span>
+									</h5>
+									<ol>
+										<li><details>
+												<summary>
+													<span class="request-method-n-url">GET http://127.0.0.1:3000/polyfills.a42588e795094b54.js</span>
+												</summary>
+												
+<table class="alerts-table">
+	<tr>
+		<th scope="row">Alert tags</th>
+		<td>
+			<ul class="alert-tags-list">
+				<li>
+					<span><a href="https://owasp.org/Top10/A01_2021-Broken_Access_Control/">OWASP_2021_A01</a></span> 
+				</li>
+				<li>
+					<span><a href="https://owasp.org/www-project-top-ten/2017/A3_2017-Sensitive_Data_Exposure.html">OWASP_2017_A03</a></span> 
+				</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<th scope="row">Alert description</th>
+		<td> 
+<p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Other info</th>
+		<td> 
+<p>The following pattern was used: \bSELECT\b and was detected in the element starting with: &quot;&quot;use strict&quot;;(self.webpackChunklab4=self.webpackChunklab4||[]).push([[429],{435:(we,ue,he)=&gt;{he(583)},583:()=&gt;{!function(e){cons&quot;, see evidence field for the suspicious comment/snippet.</p>
+ </td>
+	</tr>
+	<tr>
+		<th scope="row">Request</th>
+		<td><details open="open">
+				<summary>Request line and header section (257 bytes)</summary>
+				
+				<pre><code>GET http://127.0.0.1:3000/polyfills.a42588e795094b54.js HTTP/1.1
+Host: 127.0.0.1:3000
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:92.0) Gecko/20100101 Firefox/92.0
+Pragma: no-cache
+Cache-Control: no-cache
+Referer: http://127.0.0.1:3000
+
+</code></pre>
+				
+				
+			</details> <details class="request-body" open="open">
+				<summary>Request body (0 bytes)</summary>
+				
+				<pre><code></code></pre>
+				
+				
+			</details></td>
+	</tr>
+	<tr>
+		<th scope="row">Response</th>
+		<td><details open="open">
+				<summary>Status line and header section (364 bytes)</summary>
+				
+				<pre><code>HTTP/1.1 200 OK
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0
+Last-Modified: Thu, 03 Mar 2022 21:21:36 GMT
+ETag: W/&quot;90da-17f51a8e004&quot;
+Content-Type: application/javascript; charset=UTF-8
+Content-Length: 37082
+Date: Thu, 03 Mar 2022 21:38:35 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+</code></pre>
+				
+				
+			</details> <details class="response-body">
+				<summary>Response body (37082 bytes)</summary>
+				
+				<pre><code>&quot;use strict&quot;;(self.webpackChunklab4=self.webpackChunklab4||[]).push([[429],{435:(we,ue,he)=&gt;{he(583)},583:()=&gt;{!function(e){const n=e.performance;function i(I){n&amp;&amp;n.mark&amp;&amp;n.mark(I)}function r(I,p){n&amp;&amp;n.measure&amp;&amp;n.measure(I,p)}i(&quot;Zone&quot;);const c=e.__Zone_symbol_prefix||&quot;__zone_symbol__&quot;;function u(I){return c+I}const f=!0===e[u(&quot;forceDuplicateZoneCheck&quot;)];if(e.Zone){if(f||&quot;function&quot;!=typeof e.Zone.__symbol__)throw new Error(&quot;Zone already loaded.&quot;);return e.Zone}let _=(()=&gt;{class I{constructor(t,o){this._parent=t,this._name=o?o.name||&quot;unnamed&quot;:&quot;&lt;root&gt;&quot;,this._properties=o&amp;&amp;o.properties||{},this._zoneDelegate=new T(this,this._parent&amp;&amp;this._parent._zoneDelegate,o)}static assertZonePatched(){if(e.Promise!==J.ZoneAwarePromise)throw new Error(&quot;Zone.js has detected that ZoneAwarePromise `(window|global).Promise` has been overwritten.\nMost likely cause is that a Promise polyfill has been loaded after Zone.js (Polyfilling Promise api is not necessary when zone.js is loaded. If you must load one, do so before loading zone.js.)&quot;)}static get root(){let t=I.current;for(;t.parent;)t=t.parent;return t}static get current(){return G.zone}static get currentTask(){return te}static __load_patch(t,o,y=!1){if(J.hasOwnProperty(t)){if(!y&amp;&amp;f)throw Error(&quot;Already loaded patch: &quot;+t)}else if(!e[&quot;__Zone_disable_&quot;+t]){const P=&quot;Zone:&quot;+t;i(P),J[t]=o(e,I,le),r(P,P)}}get parent(){return this._parent}get name(){return this._name}get(t){const o=this.getZoneWith(t);if(o)return o._properties[t]}getZoneWith(t){let o=this;for(;o;){if(o._properties.hasOwnProperty(t))return o;o=o._parent}return null}fork(t){if(!t)throw new Error(&quot;ZoneSpec required!&quot;);return this._zoneDelegate.fork(this,t)}wrap(t,o){if(&quot;function&quot;!=typeof t)throw new Error(&quot;Expecting function got: &quot;+t);const y=this._zoneDelegate.intercept(this,t,o),P=this;return function(){return P.runGuarded(y,this,arguments,o)}}run(t,o,y,P){G={parent:G,zone:this};try{return this._zoneDelegate.invoke(this,t,o,y,P)}finally{G=G.parent}}runGuarded(t,o=null,y,P){G={parent:G,zone:this};try{try{return this._zoneDelegate.invoke(this,t,o,y,P)}catch(K){if(this._zoneDelegate.handleError(this,K))throw K}}finally{G=G.parent}}runTask(t,o,y){if(t.zone!=this)throw new Error(&quot;A task can only be run in the zone of creation! (Creation: &quot;+(t.zone||z).name+&quot;; Execution: &quot;+this.name+&quot;)&quot;);if(t.state===j&amp;&amp;(t.type===R||t.type===M))return;const P=t.state!=X;P&amp;&amp;t._transitionTo(X,O),t.runCount++;const K=te;te=t,G={parent:G,zone:this};try{t.type==M&amp;&amp;t.data&amp;&amp;!t.data.isPeriodic&amp;&amp;(t.cancelFn=void 0);try{return this._zoneDelegate.invokeTask(this,t,o,y)}catch(l){if(this._zoneDelegate.handleError(this,l))throw l}}finally{t.state!==j&amp;&amp;t.state!==Y&amp;&amp;(t.type==R||t.data&amp;&amp;t.data.isPeriodic?P&amp;&amp;t._transitionTo(O,X):(t.runCount=0,this._updateTaskCount(t,-1),P&amp;&amp;t._transitionTo(j,X,j))),G=G.parent,te=K}}scheduleTask(t){if(t.zone&amp;&amp;t.zone!==this){let y=this;for(;y;){if(y===t.zone)throw Error(`can not reschedule task to ${this.name} which is descendants of the original zone ${t.zone.name}`);y=y.parent}}t._transitionTo(q,j);const o=[];t._zoneDelegates=o,t._zone=this;try{t=this._zoneDelegate.scheduleTask(this,t)}catch(y){throw t._transitionTo(Y,q,j),this._zoneDelegate.handleError(this,y),y}return t._zoneDelegates===o&amp;&amp;this._updateTaskCount(t,1),t.state==q&amp;&amp;t._transitionTo(O,q),t}scheduleMicroTask(t,o,y,P){return this.scheduleTask(new m(v,t,o,y,P,void 0))}scheduleMacroTask(t,o,y,P,K){return this.scheduleTask(new m(M,t,o,y,P,K))}scheduleEventTask(t,o,y,P,K){return this.scheduleTask(new m(R,t,o,y,P,K))}cancelTask(t){if(t.zone!=this)throw new Error(&quot;A task can only be cancelled in the zone of creation! (Creation: &quot;+(t.zone||z).name+&quot;; Execution: &quot;+this.name+&quot;)&quot;);t._transitionTo(A,O,X);try{this._zoneDelegate.cancelTask(this,t)}catch(o){throw t._transitionTo(Y,A),this._zoneDelegate.handleError(this,o),o}return this._updateTaskCount(t,-1),t._transitionTo(j,A),t.runCount=0,t}_updateTaskCount(t,o){const y=t._zoneDelegates;-1==o&amp;&amp;(t._zoneDelegates=null);for(let P=0;P&lt;y.length;P++)y[P]._updateTaskCount(t.type,o)}}return I.__symbol__=u,I})();const g={name:&quot;&quot;,onHasTask:(I,p,t,o)=&gt;I.hasTask(t,o),onScheduleTask:(I,p,t,o)=&gt;I.scheduleTask(t,o),onInvokeTask:(I,p,t,o,y,P)=&gt;I.invokeTask(t,o,y,P),onCancelTask:(I,p,t,o)=&gt;I.cancelTask(t,o)};class T{constructor(p,t,o){this._taskCounts={microTask:0,macroTask:0,eventTask:0},this.zone=p,this._parentDelegate=t,this._forkZS=o&amp;&amp;(o&amp;&amp;o.onFork?o:t._forkZS),this._forkDlgt=o&amp;&amp;(o.onFork?t:t._forkDlgt),this._forkCurrZone=o&amp;&amp;(o.onFork?this.zone:t._forkCurrZone),this._interceptZS=o&amp;&amp;(o.onIntercept?o:t._interceptZS),this._interceptDlgt=o&amp;&amp;(o.onIntercept?t:t._interceptDlgt),this._interceptCurrZone=o&amp;&amp;(o.onIntercept?this.zone:t._interceptCurrZone),this._invokeZS=o&amp;&amp;(o.onInvoke?o:t._invokeZS),this._invokeDlgt=o&amp;&amp;(o.onInvoke?t:t._invokeDlgt),this._invokeCurrZone=o&amp;&amp;(o.onInvoke?this.zone:t._invokeCurrZone),this._handleErrorZS=o&amp;&amp;(o.onHandleError?o:t._handleErrorZS),this._handleErrorDlgt=o&amp;&amp;(o.onHandleError?t:t._handleErrorDlgt),this._handleErrorCurrZone=o&amp;&amp;(o.onHandleError?this.zone:t._handleErrorCurrZone),this._scheduleTaskZS=o&amp;&amp;(o.onScheduleTask?o:t._scheduleTaskZS),this._scheduleTaskDlgt=o&amp;&amp;(o.onScheduleTask?t:t._scheduleTaskDlgt),this._scheduleTaskCurrZone=o&amp;&amp;(o.onScheduleTask?this.zone:t._scheduleTaskCurrZone),this._invokeTaskZS=o&amp;&amp;(o.onInvokeTask?o:t._invokeTaskZS),this._invokeTaskDlgt=o&amp;&amp;(o.onInvokeTask?t:t._invokeTaskDlgt),this._invokeTaskCurrZone=o&amp;&amp;(o.onInvokeTask?this.zone:t._invokeTaskCurrZone),this._cancelTaskZS=o&amp;&amp;(o.onCancelTask?o:t._cancelTaskZS),this._cancelTaskDlgt=o&amp;&amp;(o.onCancelTask?t:t._cancelTaskDlgt),this._cancelTaskCurrZone=o&amp;&amp;(o.onCancelTask?this.zone:t._cancelTaskCurrZone),this._hasTaskZS=null,this._hasTaskDlgt=null,this._hasTaskDlgtOwner=null,this._hasTaskCurrZone=null;const y=o&amp;&amp;o.onHasTask;(y||t&amp;&amp;t._hasTaskZS)&amp;&amp;(this._hasTaskZS=y?o:g,this._hasTaskDlgt=t,this._hasTaskDlgtOwner=this,this._hasTaskCurrZone=p,o.onScheduleTask||(this._scheduleTaskZS=g,this._scheduleTaskDlgt=t,this._scheduleTaskCurrZone=this.zone),o.onInvokeTask||(this._invokeTaskZS=g,this._invokeTaskDlgt=t,this._invokeTaskCurrZone=this.zone),o.onCancelTask||(this._cancelTaskZS=g,this._cancelTaskDlgt=t,this._cancelTaskCurrZone=this.zone))}fork(p,t){return this._forkZS?this._forkZS.onFork(this._forkDlgt,this.zone,p,t):new _(p,t)}intercept(p,t,o){return this._interceptZS?this._interceptZS.onIntercept(this._interceptDlgt,this._interceptCurrZone,p,t,o):t}invoke(p,t,o,y,P){return this._invokeZS?this._invokeZS.onInvoke(this._invokeDlgt,this._invokeCurrZone,p,t,o,y,P):t.apply(o,y)}handleError(p,t){return!this._handleErrorZS||this._handleErrorZS.onHandleError(this._handleErrorDlgt,this._handleErrorCurrZone,p,t)}scheduleTask(p,t){let o=t;if(this._scheduleTaskZS)this._hasTaskZS&amp;&amp;o._zoneDelegates.push(this._hasTaskDlgtOwner),o=this._scheduleTaskZS.onScheduleTask(this._scheduleTaskDlgt,this._scheduleTaskCurrZone,p,t),o||(o=t);else if(t.scheduleFn)t.scheduleFn(t);else{if(t.type!=v)throw new Error(&quot;Task is missing scheduleFn.&quot;);d(t)}return o}invokeTask(p,t,o,y){return this._invokeTaskZS?this._invokeTaskZS.onInvokeTask(this._invokeTaskDlgt,this._invokeTaskCurrZone,p,t,o,y):t.callback.apply(o,y)}cancelTask(p,t){let o;if(this._cancelTaskZS)o=this._cancelTaskZS.onCancelTask(this._cancelTaskDlgt,this._cancelTaskCurrZone,p,t);else{if(!t.cancelFn)throw Error(&quot;Task is not cancelable&quot;);o=t.cancelFn(t)}return o}hasTask(p,t){try{this._hasTaskZS&amp;&amp;this._hasTaskZS.onHasTask(this._hasTaskDlgt,this._hasTaskCurrZone,p,t)}catch(o){this.handleError(p,o)}}_updateTaskCount(p,t){const o=this._taskCounts,y=o[p],P=o[p]=y+t;if(P&lt;0)throw new Error(&quot;More tasks executed then were scheduled.&quot;);0!=y&amp;&amp;0!=P||this.hasTask(this.zone,{microTask:o.microTask&gt;0,macroTask:o.macroTask&gt;0,eventTask:o.eventTask&gt;0,change:p})}}class m{constructor(p,t,o,y,P,K){if(this._zone=null,this.runCount=0,this._zoneDelegates=null,this._state=&quot;notScheduled&quot;,this.type=p,this.source=t,this.data=y,this.scheduleFn=P,this.cancelFn=K,!o)throw new Error(&quot;callback is not defined&quot;);this.callback=o;const l=this;this.invoke=p===R&amp;&amp;y&amp;&amp;y.useG?m.invokeTask:function(){return m.invokeTask.call(e,l,this,arguments)}}static invokeTask(p,t,o){p||(p=this),re++;try{return p.runCount++,p.zone.runTask(p,t,o)}finally{1==re&amp;&amp;L(),re--}}get zone(){return this._zone}get state(){return this._state}cancelScheduleRequest(){this._transitionTo(j,q)}_transitionTo(p,t,o){if(this._state!==t&amp;&amp;this._state!==o)throw new Error(`${this.type} &#39;${this.source}&#39;: can not transition to &#39;${p}&#39;, expecting state &#39;${t}&#39;${o?&quot; or &#39;&quot;+o+&quot;&#39;&quot;:&quot;&quot;}, was &#39;${this._state}&#39;.`);this._state=p,p==j&amp;&amp;(this._zoneDelegates=null)}toString(){return this.data&amp;&amp;void 0!==this.data.handleId?this.data.handleId.toString():Object.prototype.toString.call(this)}toJSON(){return{type:this.type,state:this.state,source:this.source,zone:this.zone.name,runCount:this.runCount}}}const S=u(&quot;setTimeout&quot;),D=u(&quot;Promise&quot;),Z=u(&quot;then&quot;);let E,B=[],V=!1;function d(I){if(0===re&amp;&amp;0===B.length)if(E||e[D]&amp;&amp;(E=e[D].resolve(0)),E){let p=E[Z];p||(p=E.then),p.call(E,L)}else e[S](L,0);I&amp;&amp;B.push(I)}function L(){if(!V){for(V=!0;B.length;){const I=B;B=[];for(let p=0;p&lt;I.length;p++){const t=I[p];try{t.zone.runTask(t,null,null)}catch(o){le.onUnhandledError(o)}}}le.microtaskDrainDone(),V=!1}}const z={name:&quot;NO ZONE&quot;},j=&quot;notScheduled&quot;,q=&quot;scheduling&quot;,O=&quot;scheduled&quot;,X=&quot;running&quot;,A=&quot;canceling&quot;,Y=&quot;unknown&quot;,v=&quot;microTask&quot;,M=&quot;macroTask&quot;,R=&quot;eventTask&quot;,J={},le={symbol:u,currentZoneFrame:()=&gt;G,onUnhandledError:F,microtaskDrainDone:F,scheduleMicroTask:d,showUncaughtError:()=&gt;!_[u(&quot;ignoreConsoleErrorUncaughtError&quot;)],patchEventTarget:()=&gt;[],patchOnProperties:F,patchMethod:()=&gt;F,bindArguments:()=&gt;[],patchThen:()=&gt;F,patchMacroTask:()=&gt;F,patchEventPrototype:()=&gt;F,isIEOrEdge:()=&gt;!1,getGlobalObjects:()=&gt;{},ObjectDefineProperty:()=&gt;F,ObjectGetOwnPropertyDescriptor:()=&gt;{},ObjectCreate:()=&gt;{},ArraySlice:()=&gt;[],patchClass:()=&gt;F,wrapWithCurrentZone:()=&gt;F,filterProperties:()=&gt;[],attachOriginToPatched:()=&gt;F,_redefineProperty:()=&gt;F,patchCallbacks:()=&gt;F};let G={parent:null,zone:new _(null,null)},te=null,re=0;function F(){}r(&quot;Zone&quot;,&quot;Zone&quot;),e.Zone=_}(&quot;undefined&quot;!=typeof window&amp;&amp;window||&quot;undefined&quot;!=typeof self&amp;&amp;self||global);const ue=Object.getOwnPropertyDescriptor,he=Object.defineProperty,de=Object.getPrototypeOf,Be=Object.create,ut=Array.prototype.slice,Se=&quot;addEventListener&quot;,Oe=&quot;removeEventListener&quot;,Ze=Zone.__symbol__(Se),Ie=Zone.__symbol__(Oe),se=&quot;true&quot;,ie=&quot;false&quot;,ke=Zone.__symbol__(&quot;&quot;);function Le(e,n){return Zone.current.wrap(e,n)}function Me(e,n,i,r,c){return Zone.current.scheduleMacroTask(e,n,i,r,c)}const x=Zone.__symbol__,Pe=&quot;undefined&quot;!=typeof window,pe=Pe?window:void 0,$=Pe&amp;&amp;pe||&quot;object&quot;==typeof self&amp;&amp;self||global,ht=[null];function Ae(e,n){for(let i=e.length-1;i&gt;=0;i--)&quot;function&quot;==typeof e[i]&amp;&amp;(e[i]=Le(e[i],n+&quot;_&quot;+i));return e}function Fe(e){return!e||!1!==e.writable&amp;&amp;!(&quot;function&quot;==typeof e.get&amp;&amp;void 0===e.set)}const Ue=&quot;undefined&quot;!=typeof WorkerGlobalScope&amp;&amp;self instanceof WorkerGlobalScope,Re=!(&quot;nw&quot;in $)&amp;&amp;void 0!==$.process&amp;&amp;&quot;[object process]&quot;==={}.toString.call($.process),je=!Re&amp;&amp;!Ue&amp;&amp;!(!Pe||!pe.HTMLElement),We=void 0!==$.process&amp;&amp;&quot;[object process]&quot;==={}.toString.call($.process)&amp;&amp;!Ue&amp;&amp;!(!Pe||!pe.HTMLElement),Ce={},qe=function(e){if(!(e=e||$.event))return;let n=Ce[e.type];n||(n=Ce[e.type]=x(&quot;ON_PROPERTY&quot;+e.type));const i=this||e.target||$,r=i[n];let c;if(je&amp;&amp;i===pe&amp;&amp;&quot;error&quot;===e.type){const u=e;c=r&amp;&amp;r.call(this,u.message,u.filename,u.lineno,u.colno,u.error),!0===c&amp;&amp;e.preventDefault()}else c=r&amp;&amp;r.apply(this,arguments),null!=c&amp;&amp;!c&amp;&amp;e.preventDefault();return c};function Xe(e,n,i){let r=ue(e,n);if(!r&amp;&amp;i&amp;&amp;ue(i,n)&amp;&amp;(r={enumerable:!0,configurable:!0}),!r||!r.configurable)return;const c=x(&quot;on&quot;+n+&quot;patched&quot;);if(e.hasOwnProperty(c)&amp;&amp;e[c])return;delete r.writable,delete r.value;const u=r.get,f=r.set,_=n.substr(2);let g=Ce[_];g||(g=Ce[_]=x(&quot;ON_PROPERTY&quot;+_)),r.set=function(T){let m=this;!m&amp;&amp;e===$&amp;&amp;(m=$),m&amp;&amp;(m[g]&amp;&amp;m.removeEventListener(_,qe),f&amp;&amp;f.apply(m,ht),&quot;function&quot;==typeof T?(m[g]=T,m.addEventListener(_,qe,!1)):m[g]=null)},r.get=function(){let T=this;if(!T&amp;&amp;e===$&amp;&amp;(T=$),!T)return null;const m=T[g];if(m)return m;if(u){let S=u&amp;&amp;u.call(this);if(S)return r.set.call(this,S),&quot;function&quot;==typeof T.removeAttribute&amp;&amp;T.removeAttribute(n),S}return null},he(e,n,r),e[c]=!0}function Ye(e,n,i){if(n)for(let r=0;r&lt;n.length;r++)Xe(e,&quot;on&quot;+n[r],i);else{const r=[];for(const c in e)&quot;on&quot;==c.substr(0,2)&amp;&amp;r.push(c);for(let c=0;c&lt;r.length;c++)Xe(e,r[c],i)}}const ne=x(&quot;originalInstance&quot;);function ve(e){const n=$[e];if(!n)return;$[x(e)]=n,$[e]=function(){const c=Ae(arguments,e);switch(c.length){case 0:this[ne]=new n;break;case 1:this[ne]=new n(c[0]);break;case 2:this[ne]=new n(c[0],c[1]);break;case 3:this[ne]=new n(c[0],c[1],c[2]);break;case 4:this[ne]=new n(c[0],c[1],c[2],c[3]);break;default:throw new Error(&quot;Arg list too long.&quot;)}},ae($[e],n);const i=new n(function(){});let r;for(r in i)&quot;XMLHttpRequest&quot;===e&amp;&amp;&quot;responseBlob&quot;===r||function(c){&quot;function&quot;==typeof i[c]?$[e].prototype[c]=function(){return this[ne][c].apply(this[ne],arguments)}:he($[e].prototype,c,{set:function(u){&quot;function&quot;==typeof u?(this[ne][c]=Le(u,e+&quot;.&quot;+c),ae(this[ne][c],u)):this[ne][c]=u},get:function(){return this[ne][c]}})}(r);for(r in n)&quot;prototype&quot;!==r&amp;&amp;n.hasOwnProperty(r)&amp;&amp;($[e][r]=n[r])}function ce(e,n,i){let r=e;for(;r&amp;&amp;!r.hasOwnProperty(n);)r=de(r);!r&amp;&amp;e[n]&amp;&amp;(r=e);const c=x(n);let u=null;if(r&amp;&amp;(!(u=r[c])||!r.hasOwnProperty(c))&amp;&amp;(u=r[c]=r[n],Fe(r&amp;&amp;ue(r,n)))){const _=i(u,c,n);r[n]=function(){return _(this,arguments)},ae(r[n],u)}return u}function _t(e,n,i){let r=null;function c(u){const f=u.data;return f.args[f.cbIdx]=function(){u.invoke.apply(this,arguments)},r.apply(f.target,f.args),u}r=ce(e,n,u=&gt;function(f,_){const g=i(f,_);return g.cbIdx&gt;=0&amp;&amp;&quot;function&quot;==typeof _[g.cbIdx]?Me(g.name,_[g.cbIdx],g,c):u.apply(f,_)})}function ae(e,n){e[x(&quot;OriginalDelegate&quot;)]=n}let $e=!1,He=!1;function mt(){if($e)return He;$e=!0;try{const e=pe.navigator.userAgent;(-1!==e.indexOf(&quot;MSIE &quot;)||-1!==e.indexOf(&quot;Trident/&quot;)||-1!==e.indexOf(&quot;Edge/&quot;))&amp;&amp;(He=!0)}catch(e){}return He}Zone.__load_patch(&quot;ZoneAwarePromise&quot;,(e,n,i)=&gt;{const r=Object.getOwnPropertyDescriptor,c=Object.defineProperty,f=i.symbol,_=[],g=!0===e[f(&quot;DISABLE_WRAPPING_UNCAUGHT_PROMISE_REJECTION&quot;)],T=f(&quot;Promise&quot;),m=f(&quot;then&quot;);i.onUnhandledError=l=&gt;{if(i.showUncaughtError()){const s=l&amp;&amp;l.rejection;s?console.error(&quot;Unhandled Promise rejection:&quot;,s instanceof Error?s.message:s,&quot;; Zone:&quot;,l.zone.name,&quot;; Task:&quot;,l.task&amp;&amp;l.task.source,&quot;; Value:&quot;,s,s instanceof Error?s.stack:void 0):console.error(l)}},i.microtaskDrainDone=()=&gt;{for(;_.length;){const l=_.shift();try{l.zone.runGuarded(()=&gt;{throw l.throwOriginal?l.rejection:l})}catch(s){Z(s)}}};const D=f(&quot;unhandledPromiseRejectionHandler&quot;);function Z(l){i.onUnhandledError(l);try{const s=n[D];&quot;function&quot;==typeof s&amp;&amp;s.call(this,l)}catch(s){}}function B(l){return l&amp;&amp;l.then}function V(l){return l}function E(l){return t.reject(l)}const d=f(&quot;state&quot;),L=f(&quot;value&quot;),z=f(&quot;finally&quot;),j=f(&quot;parentPromiseValue&quot;),q=f(&quot;parentPromiseState&quot;),X=null,A=!0,Y=!1;function M(l,s){return a=&gt;{try{G(l,s,a)}catch(h){G(l,!1,h)}}}const le=f(&quot;currentTaskTrace&quot;);function G(l,s,a){const h=function(){let l=!1;return function(a){return function(){l||(l=!0,a.apply(null,arguments))}}}();if(l===a)throw new TypeError(&quot;Promise resolved with itself&quot;);if(l[d]===X){let w=null;try{(&quot;object&quot;==typeof a||&quot;function&quot;==typeof a)&amp;&amp;(w=a&amp;&amp;a.then)}catch(C){return h(()=&gt;{G(l,!1,C)})(),l}if(s!==Y&amp;&amp;a instanceof t&amp;&amp;a.hasOwnProperty(d)&amp;&amp;a.hasOwnProperty(L)&amp;&amp;a[d]!==X)re(a),G(l,a[d],a[L]);else if(s!==Y&amp;&amp;&quot;function&quot;==typeof w)try{w.call(a,h(M(l,s)),h(M(l,!1)))}catch(C){h(()=&gt;{G(l,!1,C)})()}else{l[d]=s;const C=l[L];if(l[L]=a,l[z]===z&amp;&amp;s===A&amp;&amp;(l[d]=l[q],l[L]=l[j]),s===Y&amp;&amp;a instanceof Error){const k=n.currentTask&amp;&amp;n.currentTask.data&amp;&amp;n.currentTask.data.__creationTrace__;k&amp;&amp;c(a,le,{configurable:!0,enumerable:!1,writable:!0,value:k})}for(let k=0;k&lt;C.length;)F(l,C[k++],C[k++],C[k++],C[k++]);if(0==C.length&amp;&amp;s==Y){l[d]=0;let k=a;try{throw new Error(&quot;Uncaught (in promise): &quot;+function u(l){return l&amp;&amp;l.toString===Object.prototype.toString?(l.constructor&amp;&amp;l.constructor.name||&quot;&quot;)+&quot;: &quot;+JSON.stringify(l):l?l.toString():Object.prototype.toString.call(l)}(a)+(a&amp;&amp;a.stack?&quot;\n&quot;+a.stack:&quot;&quot;))}catch(b){k=b}g&amp;&amp;(k.throwOriginal=!0),k.rejection=a,k.promise=l,k.zone=n.current,k.task=n.currentTask,_.push(k),i.scheduleMicroTask()}}}return l}const te=f(&quot;rejectionHandledHandler&quot;);function re(l){if(0===l[d]){try{const s=n[te];s&amp;&amp;&quot;function&quot;==typeof s&amp;&amp;s.call(this,{rejection:l[L],promise:l})}catch(s){}l[d]=Y;for(let s=0;s&lt;_.length;s++)l===_[s].promise&amp;&amp;_.splice(s,1)}}function F(l,s,a,h,w){re(l);const C=l[d],k=C?&quot;function&quot;==typeof h?h:V:&quot;function&quot;==typeof w?w:E;s.scheduleMicroTask(&quot;Promise.then&quot;,()=&gt;{try{const b=l[L],N=!!a&amp;&amp;z===a[z];N&amp;&amp;(a[j]=b,a[q]=C);const H=s.run(k,void 0,N&amp;&amp;k!==E&amp;&amp;k!==V?[]:[b]);G(a,!0,H)}catch(b){G(a,!1,b)}},a)}const p=function(){};class t{static toString(){return&quot;function ZoneAwarePromise() { [native code] }&quot;}static resolve(s){return G(new this(null),A,s)}static reject(s){return G(new this(null),Y,s)}static race(s){let a,h,w=new this((b,N)=&gt;{a=b,h=N});function C(b){a(b)}function k(b){h(b)}for(let b of s)B(b)||(b=this.resolve(b)),b.then(C,k);return w}static all(s){return t.allWithCallback(s)}static allSettled(s){return(this&amp;&amp;this.prototype instanceof t?this:t).allWithCallback(s,{thenCallback:h=&gt;({status:&quot;fulfilled&quot;,value:h}),errorCallback:h=&gt;({status:&quot;rejected&quot;,reason:h})})}static allWithCallback(s,a){let h,w,C=new this((H,U)=&gt;{h=H,w=U}),k=2,b=0;const N=[];for(let H of s){B(H)||(H=this.resolve(H));const U=b;try{H.then(Q=&gt;{N[U]=a?a.thenCallback(Q):Q,k--,0===k&amp;&amp;h(N)},Q=&gt;{a?(N[U]=a.errorCallback(Q),k--,0===k&amp;&amp;h(N)):w(Q)})}catch(Q){w(Q)}k++,b++}return k-=2,0===k&amp;&amp;h(N),C}constructor(s){const a=this;if(!(a instanceof t))throw new Error(&quot;Must be an instanceof Promise.&quot;);a[d]=X,a[L]=[];try{s&amp;&amp;s(M(a,A),M(a,Y))}catch(h){G(a,!1,h)}}get[Symbol.toStringTag](){return&quot;Promise&quot;}get[Symbol.species](){return t}then(s,a){let h=this.constructor[Symbol.species];(!h||&quot;function&quot;!=typeof h)&amp;&amp;(h=this.constructor||t);const w=new h(p),C=n.current;return this[d]==X?this[L].push(C,w,s,a):F(this,C,w,s,a),w}catch(s){return this.then(null,s)}finally(s){let a=this.constructor[Symbol.species];(!a||&quot;function&quot;!=typeof a)&amp;&amp;(a=t);const h=new a(p);h[z]=z;const w=n.current;return this[d]==X?this[L].push(w,h,s,s):F(this,w,h,s,s),h}}t.resolve=t.resolve,t.reject=t.reject,t.race=t.race,t.all=t.all;const o=e[T]=e.Promise;e.Promise=t;const y=f(&quot;thenPatched&quot;);function P(l){const s=l.prototype,a=r(s,&quot;then&quot;);if(a&amp;&amp;(!1===a.writable||!a.configurable))return;const h=s.then;s[m]=h,l.prototype.then=function(w,C){return new t((b,N)=&gt;{h.call(this,b,N)}).then(w,C)},l[y]=!0}return i.patchThen=P,o&amp;&amp;(P(o),ce(e,&quot;fetch&quot;,l=&gt;function K(l){return function(s,a){let h=l.apply(s,a);if(h instanceof t)return h;let w=h.constructor;return w[y]||P(w),h}}(l))),Promise[n.__symbol__(&quot;uncaughtPromiseErrors&quot;)]=_,t}),Zone.__load_patch(&quot;toString&quot;,e=&gt;{const n=Function.prototype.toString,i=x(&quot;OriginalDelegate&quot;),r=x(&quot;Promise&quot;),c=x(&quot;Error&quot;),u=function(){if(&quot;function&quot;==typeof this){const T=this[i];if(T)return&quot;function&quot;==typeof T?n.call(T):Object.prototype.toString.call(T);if(this===Promise){const m=e[r];if(m)return n.call(m)}if(this===Error){const m=e[c];if(m)return n.call(m)}}return n.call(this)};u[i]=n,Function.prototype.toString=u;const f=Object.prototype.toString;Object.prototype.toString=function(){return&quot;function&quot;==typeof Promise&amp;&amp;this instanceof Promise?&quot;[object Promise]&quot;:f.call(this)}});let me=!1;if(&quot;undefined&quot;!=typeof window)try{const e=Object.defineProperty({},&quot;passive&quot;,{get:function(){me=!0}});window.addEventListener(&quot;test&quot;,e,e),window.removeEventListener(&quot;test&quot;,e,e)}catch(e){me=!1}const Et={useG:!0},ee={},Ke={},Je=new RegExp(&quot;^&quot;+ke+&quot;(\\w+)(true|false)$&quot;),xe=x(&quot;propagationStopped&quot;);function Qe(e,n){const i=(n?n(e):e)+ie,r=(n?n(e):e)+se,c=ke+i,u=ke+r;ee[e]={},ee[e][ie]=c,ee[e][se]=u}function Tt(e,n,i){const r=i&amp;&amp;i.add||Se,c=i&amp;&amp;i.rm||Oe,u=i&amp;&amp;i.listeners||&quot;eventListeners&quot;,f=i&amp;&amp;i.rmAll||&quot;removeAllListeners&quot;,_=x(r),g=&quot;.&quot;+r+&quot;:&quot;,S=function(E,d,L){if(E.isRemoved)return;const z=E.callback;&quot;object&quot;==typeof z&amp;&amp;z.handleEvent&amp;&amp;(E.callback=q=&gt;z.handleEvent(q),E.originalDelegate=z),E.invoke(E,d,[L]);const j=E.options;j&amp;&amp;&quot;object&quot;==typeof j&amp;&amp;j.once&amp;&amp;d[c].call(d,L.type,E.originalDelegate?E.originalDelegate:E.callback,j)},D=function(E){if(!(E=E||e.event))return;const d=this||E.target||e,L=d[ee[E.type][ie]];if(L)if(1===L.length)S(L[0],d,E);else{const z=L.slice();for(let j=0;j&lt;z.length&amp;&amp;(!E||!0!==E[xe]);j++)S(z[j],d,E)}},Z=function(E){if(!(E=E||e.event))return;const d=this||E.target||e,L=d[ee[E.type][se]];if(L)if(1===L.length)S(L[0],d,E);else{const z=L.slice();for(let j=0;j&lt;z.length&amp;&amp;(!E||!0!==E[xe]);j++)S(z[j],d,E)}};function B(E,d){if(!E)return!1;let L=!0;d&amp;&amp;void 0!==d.useG&amp;&amp;(L=d.useG);const z=d&amp;&amp;d.vh;let j=!0;d&amp;&amp;void 0!==d.chkDup&amp;&amp;(j=d.chkDup);let q=!1;d&amp;&amp;void 0!==d.rt&amp;&amp;(q=d.rt);let O=E;for(;O&amp;&amp;!O.hasOwnProperty(r);)O=de(O);if(!O&amp;&amp;E[r]&amp;&amp;(O=E),!O||O[_])return!1;const X=d&amp;&amp;d.eventNameToString,A={},Y=O[_]=O[r],v=O[x(c)]=O[c],M=O[x(u)]=O[u],R=O[x(f)]=O[f];let J;function le(s,a){return!me&amp;&amp;&quot;object&quot;==typeof s&amp;&amp;s?!!s.capture:me&amp;&amp;a?&quot;boolean&quot;==typeof s?{capture:s,passive:!0}:s?&quot;object&quot;==typeof s&amp;&amp;!1!==s.passive?Object.assign(Object.assign({},s),{passive:!0}):s:{passive:!0}:s}d&amp;&amp;d.prepend&amp;&amp;(J=O[x(d.prepend)]=O[d.prepend]);const p=L?function(s){if(!A.isExisting)return Y.call(A.target,A.eventName,A.capture?Z:D,A.options)}:function(s){return Y.call(A.target,A.eventName,s.invoke,A.options)},t=L?function(s){if(!s.isRemoved){const a=ee[s.eventName];let h;a&amp;&amp;(h=a[s.capture?se:ie]);const w=h&amp;&amp;s.target[h];if(w)for(let C=0;C&lt;w.length;C++)if(w[C]===s){w.splice(C,1),s.isRemoved=!0,0===w.length&amp;&amp;(s.allRemoved=!0,s.target[h]=null);break}}if(s.allRemoved)return v.call(s.target,s.eventName,s.capture?Z:D,s.options)}:function(s){return v.call(s.target,s.eventName,s.invoke,s.options)},y=d&amp;&amp;d.diff?d.diff:function(s,a){const h=typeof a;return&quot;function&quot;===h&amp;&amp;s.callback===a||&quot;object&quot;===h&amp;&amp;s.originalDelegate===a},P=Zone[x(&quot;UNPATCHED_EVENTS&quot;)],K=e[x(&quot;PASSIVE_EVENTS&quot;)],l=function(s,a,h,w,C=!1,k=!1){return function(){const b=this||e;let N=arguments[0];d&amp;&amp;d.transferEventName&amp;&amp;(N=d.transferEventName(N));let H=arguments[1];if(!H)return s.apply(this,arguments);if(Re&amp;&amp;&quot;uncaughtException&quot;===N)return s.apply(this,arguments);let U=!1;if(&quot;function&quot;!=typeof H){if(!H.handleEvent)return s.apply(this,arguments);U=!0}if(z&amp;&amp;!z(s,H,b,arguments))return;const Q=me&amp;&amp;!!K&amp;&amp;-1!==K.indexOf(N),oe=le(arguments[2],Q);if(P)for(let _e=0;_e&lt;P.length;_e++)if(N===P[_e])return Q?s.call(b,N,H,oe):s.apply(this,arguments);const Ge=!!oe&amp;&amp;(&quot;boolean&quot;==typeof oe||oe.capture),st=!(!oe||&quot;object&quot;!=typeof oe)&amp;&amp;oe.once,At=Zone.current;let ze=ee[N];ze||(Qe(N,X),ze=ee[N]);const it=ze[Ge?se:ie];let De,ge=b[it],ct=!1;if(ge){if(ct=!0,j)for(let _e=0;_e&lt;ge.length;_e++)if(y(ge[_e],H))return}else ge=b[it]=[];const at=b.constructor.name,lt=Ke[at];lt&amp;&amp;(De=lt[N]),De||(De=at+a+(X?X(N):N)),A.options=oe,st&amp;&amp;(A.options.once=!1),A.target=b,A.capture=Ge,A.eventName=N,A.isExisting=ct;const be=L?Et:void 0;be&amp;&amp;(be.taskData=A);const fe=At.scheduleEventTask(De,H,be,h,w);return A.target=null,be&amp;&amp;(be.taskData=null),st&amp;&amp;(oe.once=!0),!me&amp;&amp;&quot;boolean&quot;==typeof fe.options||(fe.options=oe),fe.target=b,fe.capture=Ge,fe.eventName=N,U&amp;&amp;(fe.originalDelegate=H),k?ge.unshift(fe):ge.push(fe),C?b:void 0}};return O[r]=l(Y,g,p,t,q),J&amp;&amp;(O.prependListener=l(J,&quot;.prependListener:&quot;,function(s){return J.call(A.target,A.eventName,s.invoke,A.options)},t,q,!0)),O[c]=function(){const s=this||e;let a=arguments[0];d&amp;&amp;d.transferEventName&amp;&amp;(a=d.transferEventName(a));const h=arguments[2],w=!!h&amp;&amp;(&quot;boolean&quot;==typeof h||h.capture),C=arguments[1];if(!C)return v.apply(this,arguments);if(z&amp;&amp;!z(v,C,s,arguments))return;const k=ee[a];let b;k&amp;&amp;(b=k[w?se:ie]);const N=b&amp;&amp;s[b];if(N)for(let H=0;H&lt;N.length;H++){const U=N[H];if(y(U,C))return N.splice(H,1),U.isRemoved=!0,0===N.length&amp;&amp;(U.allRemoved=!0,s[b]=null,&quot;string&quot;==typeof a)&amp;&amp;(s[ke+&quot;ON_PROPERTY&quot;+a]=null),U.zone.cancelTask(U),q?s:void 0}return v.apply(this,arguments)},O[u]=function(){const s=this||e;let a=arguments[0];d&amp;&amp;d.transferEventName&amp;&amp;(a=d.transferEventName(a));const h=[],w=et(s,X?X(a):a);for(let C=0;C&lt;w.length;C++){const k=w[C];h.push(k.originalDelegate?k.originalDelegate:k.callback)}return h},O[f]=function(){const s=this||e;let a=arguments[0];if(a){d&amp;&amp;d.transferEventName&amp;&amp;(a=d.transferEventName(a));const h=ee[a];if(h){const k=s[h[ie]],b=s[h[se]];if(k){const N=k.slice();for(let H=0;H&lt;N.length;H++){const U=N[H];this[c].call(this,a,U.originalDelegate?U.originalDelegate:U.callback,U.options)}}if(b){const N=b.slice();for(let H=0;H&lt;N.length;H++){const U=N[H];this[c].call(this,a,U.originalDelegate?U.originalDelegate:U.callback,U.options)}}}}else{const h=Object.keys(s);for(let w=0;w&lt;h.length;w++){const k=Je.exec(h[w]);let b=k&amp;&amp;k[1];b&amp;&amp;&quot;removeListener&quot;!==b&amp;&amp;this[f].call(this,b)}this[f].call(this,&quot;removeListener&quot;)}if(q)return this},ae(O[r],Y),ae(O[c],v),R&amp;&amp;ae(O[f],R),M&amp;&amp;ae(O[u],M),!0}let V=[];for(let E=0;E&lt;n.length;E++)V[E]=B(n[E],i);return V}function et(e,n){if(!n){const u=[];for(let f in e){const _=Je.exec(f);let g=_&amp;&amp;_[1];if(g&amp;&amp;(!n||g===n)){const T=e[f];if(T)for(let m=0;m&lt;T.length;m++)u.push(T[m])}}return u}let i=ee[n];i||(Qe(n),i=ee[n]);const r=e[i[ie]],c=e[i[se]];return r?c?r.concat(c):r.slice():c?c.slice():[]}function yt(e,n){const i=e.Event;i&amp;&amp;i.prototype&amp;&amp;n.patchMethod(i.prototype,&quot;stopImmediatePropagation&quot;,r=&gt;function(c,u){c[xe]=!0,r&amp;&amp;r.apply(c,u)})}function gt(e,n,i,r,c){const u=Zone.__symbol__(r);if(n[u])return;const f=n[u]=n[r];n[r]=function(_,g,T){return g&amp;&amp;g.prototype&amp;&amp;c.forEach(function(m){const S=`${i}.${r}::`+m,D=g.prototype;if(D.hasOwnProperty(m)){const Z=e.ObjectGetOwnPropertyDescriptor(D,m);Z&amp;&amp;Z.value?(Z.value=e.wrapWithCurrentZone(Z.value,S),e._redefineProperty(g.prototype,m,Z)):D[m]&amp;&amp;(D[m]=e.wrapWithCurrentZone(D[m],S))}else D[m]&amp;&amp;(D[m]=e.wrapWithCurrentZone(D[m],S))}),f.call(n,_,g,T)},e.attachOriginToPatched(n[r],f)}const Ve=[&quot;absolutedeviceorientation&quot;,&quot;afterinput&quot;,&quot;afterprint&quot;,&quot;appinstalled&quot;,&quot;beforeinstallprompt&quot;,&quot;beforeprint&quot;,&quot;beforeunload&quot;,&quot;devicelight&quot;,&quot;devicemotion&quot;,&quot;deviceorientation&quot;,&quot;deviceorientationabsolute&quot;,&quot;deviceproximity&quot;,&quot;hashchange&quot;,&quot;languagechange&quot;,&quot;message&quot;,&quot;mozbeforepaint&quot;,&quot;offline&quot;,&quot;online&quot;,&quot;paint&quot;,&quot;pageshow&quot;,&quot;pagehide&quot;,&quot;popstate&quot;,&quot;rejectionhandled&quot;,&quot;storage&quot;,&quot;unhandledrejection&quot;,&quot;unload&quot;,&quot;userproximity&quot;,&quot;vrdisplayconnected&quot;,&quot;vrdisplaydisconnected&quot;,&quot;vrdisplaypresentchange&quot;],wt=[&quot;encrypted&quot;,&quot;waitingforkey&quot;,&quot;msneedkey&quot;,&quot;mozinterruptbegin&quot;,&quot;mozinterruptend&quot;],tt=[&quot;load&quot;],nt=[&quot;blur&quot;,&quot;error&quot;,&quot;focus&quot;,&quot;load&quot;,&quot;resize&quot;,&quot;scroll&quot;,&quot;messageerror&quot;],Dt=[&quot;bounce&quot;,&quot;finish&quot;,&quot;start&quot;],rt=[&quot;loadstart&quot;,&quot;progress&quot;,&quot;abort&quot;,&quot;error&quot;,&quot;load&quot;,&quot;progress&quot;,&quot;timeout&quot;,&quot;loadend&quot;,&quot;readystatechange&quot;],Ee=[&quot;upgradeneeded&quot;,&quot;complete&quot;,&quot;abort&quot;,&quot;success&quot;,&quot;error&quot;,&quot;blocked&quot;,&quot;versionchange&quot;,&quot;close&quot;],St=[&quot;close&quot;,&quot;error&quot;,&quot;open&quot;,&quot;message&quot;],Ot=[&quot;error&quot;,&quot;message&quot;],Te=[&quot;abort&quot;,&quot;animationcancel&quot;,&quot;animationend&quot;,&quot;animationiteration&quot;,&quot;auxclick&quot;,&quot;beforeinput&quot;,&quot;blur&quot;,&quot;cancel&quot;,&quot;canplay&quot;,&quot;canplaythrough&quot;,&quot;change&quot;,&quot;compositionstart&quot;,&quot;compositionupdate&quot;,&quot;compositionend&quot;,&quot;cuechange&quot;,&quot;click&quot;,&quot;close&quot;,&quot;contextmenu&quot;,&quot;curechange&quot;,&quot;dblclick&quot;,&quot;drag&quot;,&quot;dragend&quot;,&quot;dragenter&quot;,&quot;dragexit&quot;,&quot;dragleave&quot;,&quot;dragover&quot;,&quot;drop&quot;,&quot;durationchange&quot;,&quot;emptied&quot;,&quot;ended&quot;,&quot;error&quot;,&quot;focus&quot;,&quot;focusin&quot;,&quot;focusout&quot;,&quot;gotpointercapture&quot;,&quot;input&quot;,&quot;invalid&quot;,&quot;keydown&quot;,&quot;keypress&quot;,&quot;keyup&quot;,&quot;load&quot;,&quot;loadstart&quot;,&quot;loadeddata&quot;,&quot;loadedmetadata&quot;,&quot;lostpointercapture&quot;,&quot;mousedown&quot;,&quot;mouseenter&quot;,&quot;mouseleave&quot;,&quot;mousemove&quot;,&quot;mouseout&quot;,&quot;mouseover&quot;,&quot;mouseup&quot;,&quot;mousewheel&quot;,&quot;orientationchange&quot;,&quot;pause&quot;,&quot;play&quot;,&quot;playing&quot;,&quot;pointercancel&quot;,&quot;pointerdown&quot;,&quot;pointerenter&quot;,&quot;pointerleave&quot;,&quot;pointerlockchange&quot;,&quot;mozpointerlockchange&quot;,&quot;webkitpointerlockerchange&quot;,&quot;pointerlockerror&quot;,&quot;mozpointerlockerror&quot;,&quot;webkitpointerlockerror&quot;,&quot;pointermove&quot;,&quot;pointout&quot;,&quot;pointerover&quot;,&quot;pointerup&quot;,&quot;progress&quot;,&quot;ratechange&quot;,&quot;reset&quot;,&quot;resize&quot;,&quot;scroll&quot;,&quot;seeked&quot;,&quot;seeking&quot;,&quot;select&quot;,&quot;selectionchange&quot;,&quot;selectstart&quot;,&quot;show&quot;,&quot;sort&quot;,&quot;stalled&quot;,&quot;submit&quot;,&quot;suspend&quot;,&quot;timeupdate&quot;,&quot;volumechange&quot;,&quot;touchcancel&quot;,&quot;touchmove&quot;,&quot;touchstart&quot;,&quot;touchend&quot;,&quot;transitioncancel&quot;,&quot;transitionend&quot;,&quot;waiting&quot;,&quot;wheel&quot;].concat([&quot;webglcontextrestored&quot;,&quot;webglcontextlost&quot;,&quot;webglcontextcreationerror&quot;],[&quot;autocomplete&quot;,&quot;autocompleteerror&quot;],[&quot;toggle&quot;],[&quot;afterscriptexecute&quot;,&quot;beforescriptexecute&quot;,&quot;DOMContentLoaded&quot;,&quot;freeze&quot;,&quot;fullscreenchange&quot;,&quot;mozfullscreenchange&quot;,&quot;webkitfullscreenchange&quot;,&quot;msfullscreenchange&quot;,&quot;fullscreenerror&quot;,&quot;mozfullscreenerror&quot;,&quot;webkitfullscreenerror&quot;,&quot;msfullscreenerror&quot;,&quot;readystatechange&quot;,&quot;visibilitychange&quot;,&quot;resume&quot;],Ve,[&quot;beforecopy&quot;,&quot;beforecut&quot;,&quot;beforepaste&quot;,&quot;copy&quot;,&quot;cut&quot;,&quot;paste&quot;,&quot;dragstart&quot;,&quot;loadend&quot;,&quot;animationstart&quot;,&quot;search&quot;,&quot;transitionrun&quot;,&quot;transitionstart&quot;,&quot;webkitanimationend&quot;,&quot;webkitanimationiteration&quot;,&quot;webkitanimationstart&quot;,&quot;webkittransitionend&quot;],[&quot;activate&quot;,&quot;afterupdate&quot;,&quot;ariarequest&quot;,&quot;beforeactivate&quot;,&quot;beforedeactivate&quot;,&quot;beforeeditfocus&quot;,&quot;beforeupdate&quot;,&quot;cellchange&quot;,&quot;controlselect&quot;,&quot;dataavailable&quot;,&quot;datasetchanged&quot;,&quot;datasetcomplete&quot;,&quot;errorupdate&quot;,&quot;filterchange&quot;,&quot;layoutcomplete&quot;,&quot;losecapture&quot;,&quot;move&quot;,&quot;moveend&quot;,&quot;movestart&quot;,&quot;propertychange&quot;,&quot;resizeend&quot;,&quot;resizestart&quot;,&quot;rowenter&quot;,&quot;rowexit&quot;,&quot;rowsdelete&quot;,&quot;rowsinserted&quot;,&quot;command&quot;,&quot;compassneedscalibration&quot;,&quot;deactivate&quot;,&quot;help&quot;,&quot;mscontentzoom&quot;,&quot;msmanipulationstatechanged&quot;,&quot;msgesturechange&quot;,&quot;msgesturedoubletap&quot;,&quot;msgestureend&quot;,&quot;msgesturehold&quot;,&quot;msgesturestart&quot;,&quot;msgesturetap&quot;,&quot;msgotpointercapture&quot;,&quot;msinertiastart&quot;,&quot;mslostpointercapture&quot;,&quot;mspointercancel&quot;,&quot;mspointerdown&quot;,&quot;mspointerenter&quot;,&quot;mspointerhover&quot;,&quot;mspointerleave&quot;,&quot;mspointermove&quot;,&quot;mspointerout&quot;,&quot;mspointerover&quot;,&quot;mspointerup&quot;,&quot;pointerout&quot;,&quot;mssitemodejumplistitemremoved&quot;,&quot;msthumbnailclick&quot;,&quot;stop&quot;,&quot;storagecommit&quot;]);function ot(e,n,i){if(!i||0===i.length)return n;const r=i.filter(u=&gt;u.target===e);if(!r||0===r.length)return n;const c=r[0].ignoreProperties;return n.filter(u=&gt;-1===c.indexOf(u))}function W(e,n,i,r){e&amp;&amp;Ye(e,ot(e,n,i),r)}Zone.__load_patch(&quot;util&quot;,(e,n,i)=&gt;{i.patchOnProperties=Ye,i.patchMethod=ce,i.bindArguments=Ae,i.patchMacroTask=_t;const r=n.__symbol__(&quot;BLACK_LISTED_EVENTS&quot;),c=n.__symbol__(&quot;UNPATCHED_EVENTS&quot;);e[c]&amp;&amp;(e[r]=e[c]),e[r]&amp;&amp;(n[r]=n[c]=e[r]),i.patchEventPrototype=yt,i.patchEventTarget=Tt,i.isIEOrEdge=mt,i.ObjectDefineProperty=he,i.ObjectGetOwnPropertyDescriptor=ue,i.ObjectCreate=Be,i.ArraySlice=ut,i.patchClass=ve,i.wrapWithCurrentZone=Le,i.filterProperties=ot,i.attachOriginToPatched=ae,i._redefineProperty=Object.defineProperty,i.patchCallbacks=gt,i.getGlobalObjects=()=&gt;({globalSources:Ke,zoneSymbolEventNames:ee,eventNames:Te,isBrowser:je,isMix:We,isNode:Re,TRUE_STR:se,FALSE_STR:ie,ZONE_SYMBOL_PREFIX:ke,ADD_EVENT_LISTENER_STR:Se,REMOVE_EVENT_LISTENER_STR:Oe})});const Ne=x(&quot;zoneTask&quot;);function ye(e,n,i,r){let c=null,u=null;i+=r;const f={};function _(T){const m=T.data;return m.args[0]=function(){return T.invoke.apply(this,arguments)},m.handleId=c.apply(e,m.args),T}function g(T){return u.call(e,T.data.handleId)}c=ce(e,n+=r,T=&gt;function(m,S){if(&quot;function&quot;==typeof S[0]){const D={isPeriodic:&quot;Interval&quot;===r,delay:&quot;Timeout&quot;===r||&quot;Interval&quot;===r?S[1]||0:void 0,args:S},Z=S[0];S[0]=function(){try{return Z.apply(this,arguments)}finally{D.isPeriodic||(&quot;number&quot;==typeof D.handleId?delete f[D.handleId]:D.handleId&amp;&amp;(D.handleId[Ne]=null))}};const B=Me(n,S[0],D,_,g);if(!B)return B;const V=B.data.handleId;return&quot;number&quot;==typeof V?f[V]=B:V&amp;&amp;(V[Ne]=B),V&amp;&amp;V.ref&amp;&amp;V.unref&amp;&amp;&quot;function&quot;==typeof V.ref&amp;&amp;&quot;function&quot;==typeof V.unref&amp;&amp;(B.ref=V.ref.bind(V),B.unref=V.unref.bind(V)),&quot;number&quot;==typeof V||V?V:B}return T.apply(e,S)}),u=ce(e,i,T=&gt;function(m,S){const D=S[0];let Z;&quot;number&quot;==typeof D?Z=f[D]:(Z=D&amp;&amp;D[Ne],Z||(Z=D)),Z&amp;&amp;&quot;string&quot;==typeof Z.type?&quot;notScheduled&quot;!==Z.state&amp;&amp;(Z.cancelFn&amp;&amp;Z.data.isPeriodic||0===Z.runCount)&amp;&amp;(&quot;number&quot;==typeof D?delete f[D]:D&amp;&amp;(D[Ne]=null),Z.zone.cancelTask(Z)):T.apply(e,S)})}Zone.__load_patch(&quot;legacy&quot;,e=&gt;{const n=e[Zone.__symbol__(&quot;legacyPatch&quot;)];n&amp;&amp;n()}),Zone.__load_patch(&quot;queueMicrotask&quot;,(e,n,i)=&gt;{i.patchMethod(e,&quot;queueMicrotask&quot;,r=&gt;function(c,u){n.current.scheduleMicroTask(&quot;queueMicrotask&quot;,u[0])})}),Zone.__load_patch(&quot;timers&quot;,e=&gt;{const n=&quot;set&quot;,i=&quot;clear&quot;;ye(e,n,i,&quot;Timeout&quot;),ye(e,n,i,&quot;Interval&quot;),ye(e,n,i,&quot;Immediate&quot;)}),Zone.__load_patch(&quot;requestAnimationFrame&quot;,e=&gt;{ye(e,&quot;request&quot;,&quot;cancel&quot;,&quot;AnimationFrame&quot;),ye(e,&quot;mozRequest&quot;,&quot;mozCancel&quot;,&quot;AnimationFrame&quot;),ye(e,&quot;webkitRequest&quot;,&quot;webkitCancel&quot;,&quot;AnimationFrame&quot;)}),Zone.__load_patch(&quot;blocking&quot;,(e,n)=&gt;{const i=[&quot;alert&quot;,&quot;prompt&quot;,&quot;confirm&quot;];for(let r=0;r&lt;i.length;r++)ce(e,i[r],(u,f,_)=&gt;function(g,T){return n.current.run(u,e,T,_)})}),Zone.__load_patch(&quot;EventTarget&quot;,(e,n,i)=&gt;{(function Mt(e,n){n.patchEventPrototype(e,n)})(e,i),function Lt(e,n){if(Zone[n.symbol(&quot;patchEventTarget&quot;)])return;const{eventNames:i,zoneSymbolEventNames:r,TRUE_STR:c,FALSE_STR:u,ZONE_SYMBOL_PREFIX:f}=n.getGlobalObjects();for(let g=0;g&lt;i.length;g++){const T=i[g],D=f+(T+u),Z=f+(T+c);r[T]={},r[T][u]=D,r[T][c]=Z}const _=e.EventTarget;_&amp;&amp;_.prototype&amp;&amp;n.patchEventTarget(e,[_&amp;&amp;_.prototype])}(e,i);const r=e.XMLHttpRequestEventTarget;r&amp;&amp;r.prototype&amp;&amp;i.patchEventTarget(e,[r.prototype])}),Zone.__load_patch(&quot;MutationObserver&quot;,(e,n,i)=&gt;{ve(&quot;MutationObserver&quot;),ve(&quot;WebKitMutationObserver&quot;)}),Zone.__load_patch(&quot;IntersectionObserver&quot;,(e,n,i)=&gt;{ve(&quot;IntersectionObserver&quot;)}),Zone.__load_patch(&quot;FileReader&quot;,(e,n,i)=&gt;{ve(&quot;FileReader&quot;)}),Zone.__load_patch(&quot;on_property&quot;,(e,n,i)=&gt;{!function Zt(e,n){if(Re&amp;&amp;!We||Zone[e.symbol(&quot;patchEvents&quot;)])return;const i=&quot;undefined&quot;!=typeof WebSocket,r=n.__Zone_ignore_on_properties;if(je){const f=window,_=function pt(){try{const e=pe.navigator.userAgent;if(-1!==e.indexOf(&quot;MSIE &quot;)||-1!==e.indexOf(&quot;Trident/&quot;))return!0}catch(e){}return!1}()?[{target:f,ignoreProperties:[&quot;error&quot;]}]:[];W(f,Te.concat([&quot;messageerror&quot;]),r&amp;&amp;r.concat(_),de(f)),W(Document.prototype,Te,r),void 0!==f.SVGElement&amp;&amp;W(f.SVGElement.prototype,Te,r),W(Element.prototype,Te,r),W(HTMLElement.prototype,Te,r),W(HTMLMediaElement.prototype,wt,r),W(HTMLFrameSetElement.prototype,Ve.concat(nt),r),W(HTMLBodyElement.prototype,Ve.concat(nt),r),W(HTMLFrameElement.prototype,tt,r),W(HTMLIFrameElement.prototype,tt,r);const g=f.HTMLMarqueeElement;g&amp;&amp;W(g.prototype,Dt,r);const T=f.Worker;T&amp;&amp;W(T.prototype,Ot,r)}const c=n.XMLHttpRequest;c&amp;&amp;W(c.prototype,rt,r);const u=n.XMLHttpRequestEventTarget;u&amp;&amp;W(u&amp;&amp;u.prototype,rt,r),&quot;undefined&quot;!=typeof IDBIndex&amp;&amp;(W(IDBIndex.prototype,Ee,r),W(IDBRequest.prototype,Ee,r),W(IDBOpenDBRequest.prototype,Ee,r),W(IDBDatabase.prototype,Ee,r),W(IDBTransaction.prototype,Ee,r),W(IDBCursor.prototype,Ee,r)),i&amp;&amp;W(WebSocket.prototype,St,r)}(i,e)}),Zone.__load_patch(&quot;customElements&quot;,(e,n,i)=&gt;{!function It(e,n){const{isBrowser:i,isMix:r}=n.getGlobalObjects();(i||r)&amp;&amp;e.customElements&amp;&amp;&quot;customElements&quot;in e&amp;&amp;n.patchCallbacks(n,e.customElements,&quot;customElements&quot;,&quot;define&quot;,[&quot;connectedCallback&quot;,&quot;disconnectedCallback&quot;,&quot;adoptedCallback&quot;,&quot;attributeChangedCallback&quot;])}(e,i)}),Zone.__load_patch(&quot;XHR&quot;,(e,n)=&gt;{!function g(T){const m=T.XMLHttpRequest;if(!m)return;const S=m.prototype;let Z=S[Ze],B=S[Ie];if(!Z){const v=T.XMLHttpRequestEventTarget;if(v){const M=v.prototype;Z=M[Ze],B=M[Ie]}}const V=&quot;readystatechange&quot;,E=&quot;scheduled&quot;;function d(v){const M=v.data,R=M.target;R[u]=!1,R[_]=!1;const J=R[c];Z||(Z=R[Ze],B=R[Ie]),J&amp;&amp;B.call(R,V,J);const le=R[c]=()=&gt;{if(R.readyState===R.DONE)if(!M.aborted&amp;&amp;R[u]&amp;&amp;v.state===E){const te=R[n.__symbol__(&quot;loadfalse&quot;)];if(0!==R.status&amp;&amp;te&amp;&amp;te.length&gt;0){const re=v.invoke;v.invoke=function(){const F=R[n.__symbol__(&quot;loadfalse&quot;)];for(let I=0;I&lt;F.length;I++)F[I]===v&amp;&amp;F.splice(I,1);!M.aborted&amp;&amp;v.state===E&amp;&amp;re.call(v)},te.push(v)}else v.invoke()}else!M.aborted&amp;&amp;!1===R[u]&amp;&amp;(R[_]=!0)};return Z.call(R,V,le),R[i]||(R[i]=v),A.apply(R,M.args),R[u]=!0,v}function L(){}function z(v){const M=v.data;return M.aborted=!0,Y.apply(M.target,M.args)}const j=ce(S,&quot;open&quot;,()=&gt;function(v,M){return v[r]=0==M[2],v[f]=M[1],j.apply(v,M)}),O=x(&quot;fetchTaskAborting&quot;),X=x(&quot;fetchTaskScheduling&quot;),A=ce(S,&quot;send&quot;,()=&gt;function(v,M){if(!0===n.current[X]||v[r])return A.apply(v,M);{const R={target:v,url:v[f],isPeriodic:!1,args:M,aborted:!1},J=Me(&quot;XMLHttpRequest.send&quot;,L,R,d,z);v&amp;&amp;!0===v[_]&amp;&amp;!R.aborted&amp;&amp;J.state===E&amp;&amp;J.invoke()}}),Y=ce(S,&quot;abort&quot;,()=&gt;function(v,M){const R=function D(v){return v[i]}(v);if(R&amp;&amp;&quot;string&quot;==typeof R.type){if(null==R.cancelFn||R.data&amp;&amp;R.data.aborted)return;R.zone.cancelTask(R)}else if(!0===n.current[O])return Y.apply(v,M)})}(e);const i=x(&quot;xhrTask&quot;),r=x(&quot;xhrSync&quot;),c=x(&quot;xhrListener&quot;),u=x(&quot;xhrScheduled&quot;),f=x(&quot;xhrURL&quot;),_=x(&quot;xhrErrorBeforeScheduled&quot;)}),Zone.__load_patch(&quot;geolocation&quot;,e=&gt;{e.navigator&amp;&amp;e.navigator.geolocation&amp;&amp;function dt(e,n){const i=e.constructor.name;for(let r=0;r&lt;n.length;r++){const c=n[r],u=e[c];if(u){if(!Fe(ue(e,c)))continue;e[c]=(_=&gt;{const g=function(){return _.apply(this,Ae(arguments,i+&quot;.&quot;+c))};return ae(g,_),g})(u)}}}(e.navigator.geolocation,[&quot;getCurrentPosition&quot;,&quot;watchPosition&quot;])}),Zone.__load_patch(&quot;PromiseRejectionEvent&quot;,(e,n)=&gt;{function i(r){return function(c){et(e,r).forEach(f=&gt;{const _=e.PromiseRejectionEvent;if(_){const g=new _(r,{promise:c.promise,reason:c.rejection});f.invoke(g)}})}}e.PromiseRejectionEvent&amp;&amp;(n[x(&quot;unhandledPromiseRejectionHandler&quot;)]=i(&quot;unhandledrejection&quot;),n[x(&quot;rejectionHandledHandler&quot;)]=i(&quot;rejectionhandled&quot;))})}},we=&gt;{we(we.s=435)}]);</code></pre>
+				
+				
+			</details></td>
+	</tr>
+	
+	
+	<tr>
+		<th scope="row">Evidence</th>
+		<td><pre><code>select</code></pre></td>
+	</tr>
+	<tr>
+		<th scope="row">Solution</th>
+		<td> 
+<p>Remove all comments that return information that may help an attacker and fix any underlying problems they refer to.</p>
+ </td>
+	</tr>
+</table>
+
+											</details></li>
+									</ol>
+								</li>
+								
+							</ol>
+						</li>
+						
+					</ol>
+				</li>
+				  
+			</ol>
+		</section>
+
+		<section id="appendix" class="appendix">
+			<h2>Appendix</h2>
+
+			<section id="alert-types" class="alert-types">
+				<h3>Alert types</h3>
+				<p class="alert-types-intro">This section contains additional information on the types of alerts in the report.</p>
+				<ol>
+					<li
+						id="alert-type-0">
+						<h4>CSP: Wildcard Directive</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10055/">CSP</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://www.w3.org/TR/CSP2/">http://www.w3.org/TR/CSP2/</a></li>
+										<li><a
+											href="http://www.w3.org/TR/CSP/">http://www.w3.org/TR/CSP/</a></li>
+										<li><a
+											href="http://caniuse.com/#search=content+security+policy">http://caniuse.com/#search=content+security+policy</a></li>
+										<li><a
+											href="http://content-security-policy.com/">http://content-security-policy.com/</a></li>
+										<li><a
+											href="https://github.com/shapesecurity/salvation">https://github.com/shapesecurity/salvation</a></li>
+										<li><a
+											href="https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources">https://developers.google.com/web/fundamentals/security/csp#policy_applies_to_a_wide_variety_of_resources</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-1">
+						<h4>Cross-Domain Misconfiguration</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10098/">Cross-Domain Misconfiguration</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/264.html">264</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>14</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy">https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-2">
+						<h4>Missing Anti-clickjacking Header</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10020/">Anti-clickjacking Header</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/1021.html">1021</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options">https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-3">
+						<h4>Cross-Domain JavaScript Source File Inclusion</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10017/">Cross-Domain JavaScript Source File Inclusion</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/829.html">829</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							
+						</table>
+					</li>
+					<li
+						id="alert-type-4">
+						<h4>Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10037/">Server Leaks Information via &quot;X-Powered-By&quot; HTTP Response Header Field(s)</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/200.html">200</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://blogs.msdn.com/b/varunm/archive/2013/04/23/remove-unwanted-http-response-headers.aspx">http://blogs.msdn.com/b/varunm/archive/2013/04/23/remove-unwanted-http-response-headers.aspx</a></li>
+										<li><a
+											href="http://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html">http://www.troyhunt.com/2012/02/shhh-dont-let-your-response-headers.html</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-5">
+						<h4>X-Content-Type-Options Header Missing</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10021/">X-Content-Type-Options Header Missing</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/693.html">693</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>15</td>
+							</tr>
+							<tr>
+								<th scope="row">Reference</th>
+								<td>
+									<ol>
+										<li><a
+											href="http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx">http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</a></li>
+										<li><a
+											href="https://owasp.org/www-community/Security_Headers">https://owasp.org/www-community/Security_Headers</a></li>
+									</ol>
+								</td>
+							</tr>
+						</table>
+					</li>
+					<li
+						id="alert-type-6">
+						<h4>Information Disclosure - Suspicious Comments</h4>
+						<table class="alert-types-table">
+							<tr>
+								<th scope="row">Source</th>
+								<td>
+									
+									   <span>raised by a passive scanner</span> <span>(<a
+										href="https://www.zaproxy.org/docs/alerts/10027/">Information Disclosure - Suspicious Comments</a>)
+									</span>   
+								</td>
+							</tr>
+							<tr>
+								<th scope="row">CWE ID</th>
+								<td><a
+									href="https://cwe.mitre.org/data/definitions/200.html">200</a></td>
+							</tr>
+							<tr>
+								<th scope="row">WASC ID</th>
+								<td>13</td>
+							</tr>
+							
+						</table>
+					</li>
+				</ol>
+			</section>
+		</section>
+		 
+	</main>
+</body>
+</html>
+
+
+
