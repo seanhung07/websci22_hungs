@@ -1,7 +1,7 @@
 GET http://localhost:3000/db
 
 ###
-GET http://localhost:3000/news/623be40b672290bdbe393561
+GET http://localhost:3000/db/623d24d47385c33192acf189
 ### 
 POST http://localhost:3000/db/
 Content-Type: application/json
