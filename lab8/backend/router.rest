@@ -1,0 +1,26 @@
+GET http://localhost:3000/db
+
+###
+GET http://localhost:3000/db/623d24d47385c33192acf189
+### 
+POST http://localhost:3000/db/
+Content-Type: application/json
+
+{
+    "text" : "lab 10",
+    "senData": 3
+}
+
+###
+DELETE  http://localhost:3000/news/623be40b672290bdbe393561
+###
+PUT  http://localhost:3000/db/623cd4d71e3a670e1133b840
+Content-Type: application/json
+
+{
+    "text" : "lab 3",
+    "senData": 10
+}
+
+###
+POST http://hungs.work:9999/news?topic=eth
